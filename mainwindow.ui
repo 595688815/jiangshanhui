@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="DebugBtn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>debug</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DebugBtn_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>120</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>debug2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DebugBtn_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>170</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>debug3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DebugBtn_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>220</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>debug4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DebugBtn_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>270</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>debug5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DebugBtn_6">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>320</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>debug6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DebugBtn_7">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>370</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>debug7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DebugBtn_8">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>410</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>debug8</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>491</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>180</y>
+      <width>491</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>360</y>
+      <width>491</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

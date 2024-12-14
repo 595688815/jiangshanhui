@@ -1,0 +1,59 @@
+{
+  "layout": [
+    {
+      "guid": "a1b82f3219779aef",
+      "name": "主画面",
+      "type": 1,
+      "setting": {
+        "resolutionw": 800,
+        "resolutionh": 480,
+        "bgurl": ""
+      },
+      "components": [
+        {
+          "guid": "e0895f94f7973707",
+          "name": "Text",
+          "type": 1,
+          "prop": {
+            "x": "137.4747",
+            "y": "132.3621",
+            "w": "230",
+            "h": "80",
+            "text": "文本",
+            "size": "20",
+            "var": "变量",
+            "txtcolor": "#000000FF",
+            "imgcolor": "#FFFFFFFF"
+          }
+        },
+        {
+          "guid": "de6103325befd178",
+          "name": "Button",
+          "type": 2,
+          "prop": {
+            "x": "502.5022",
+            "y": "145.4948",
+            "w": "230",
+            "h": "80",
+            "text": "按钮",
+            "size": "20",
+            "var": "变量",
+            "txtcolor": "#000000FF",
+            "imgcolor": "#FFFFFFFF"
+          }
+        }
+      ]
+    },
+    {
+      "guid": "d91ac7dec4759df6",
+      "name": "画面1",
+      "type": 2,
+      "setting": {
+        "resolutionw": 1280,
+        "resolutionh": 768,
+        "bgurl": "Button Icon.png"
+      },
+      "components": []
+    }
+  ]
+}
