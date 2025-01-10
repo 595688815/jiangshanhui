@@ -40,6 +40,7 @@ void MyTcpSocket::RecvMsg()
 {
     QByteArray lstr = readAll();
     qDebug()<<lstr;
+    AnalyzData(lstr);
 }
 /*
  * 函数名：SendMsg
@@ -59,7 +60,7 @@ void MyTcpSocket::SendMsg(QByteArray byteArray)
 */
 void MyTcpSocket::ResetTimeout()
 {
-    m_timer->start(); // 重置定时器 
+    m_timer->start(); // 重置定时器
 }
 /*
  * 函数名：OnTimeout
@@ -78,7 +79,13 @@ void MyTcpSocket::OnTimeout()
  * 返回：bool
  * 函数说明：分析接收到的数据内容
 */
-bool MyTcpSocket::AnalyzData()
+bool MyTcpSocket::AnalyzData(QByteArray str)
 {
-
+    //根据str数据类型区分处理
+    if(str=="")
+    {
+        qDebug()<<"AnalyzeData Empyt!";
+        return false;
+    }
+    if(str[0]=='@');
 }

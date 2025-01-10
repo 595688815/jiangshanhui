@@ -1,5 +1,5 @@
-#ifndef FILESERVER2_H
-#define FILESERVER2_H
+#ifndef FILESERVER_H
+#define FILESERVER_H
 #include <QObject>
 #include <QTcpServer>
 #include <QDebug>
@@ -31,4 +31,4 @@ private:
 
 
 
-#endif // FILESERVER2_H
+#endif // FILESERVER_H

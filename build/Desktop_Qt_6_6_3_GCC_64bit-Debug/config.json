@@ -1,0 +1,359 @@
+{
+  "layout": [
+    {
+      "guid": "f3430531b355cc18",
+      "name": "主画面",
+      "type": 1,
+      "setting": {
+        "resolutionw": 1920,
+        "resolutionh": 1080,
+        "bgurl": "Light/AudioListener Icon.png"
+      },
+      "components": [
+        {
+          "guid": "a3430531b355cc18",
+          "name": "DI23323",
+          "type": 1,
+          "prop": {
+            "x": "696.06",
+            "y": "146.9258",
+            "w": "336.2897",
+            "h": "160",
+            "text": "文本222",
+            "size": "20",
+            "var": "变量1",
+            "txtcolor": "#00FF0DFF",
+            "imgcolor": "#972626FF",
+            "align": "Left",
+            "rotation": "0",
+            "refreshVar": "False",
+            "sibling": null
+          }
+        },
+        {
+          "guid": "de6c0d3214abd9dd",
+          "name": "Text",
+          "type": 1,
+          "prop": {
+            "x": "866.1484",
+            "y": "375.4064",
+            "w": "230",
+            "h": "80",
+            "text": "文本aaa",
+            "size": "20",
+            "var": "变量",
+            "txtcolor": "#000000FF",
+            "imgcolor": "#FFFFFFFF",
+            "align": "Left",
+            "rotation": "0",
+            "refreshVar": "False",
+            "sibling": null
+          }
+        },
+        {
+          "guid": "6d6b51f6e46bfc5b",
+          "name": "Text",
+          "type": 1,
+          "prop": {
+            "x": "470.8905",
+            "y": "475.0744",
+            "w": "230",
+            "h": "80",
+            "text": "文本",
+            "size": "20",
+            "var": "变量",
+            "txtcolor": "#000000FF",
+            "imgcolor": "#FFFFFFFF",
+            "align": "Left",
+            "rotation": "0",
+            "refreshVar": "False",
+            "sibling": null
+          }
+        },
+        {
+          "guid": "edb35cf96818310a",
+          "name": "Button",
+          "type": 2,
+          "prop": {
+            "imgcolorClick": "#008EFFFF",
+            "imgNormal": "",
+            "imgClick": "",
+            "action": "无",
+            "layout": "主画面",
+            "x": "275.1132",
+            "y": "271.5408",
+            "w": "230",
+            "h": "80",
+            "text": "变量",
+            "size": "20",
+            "var": "变量",
+            "txtcolor": "#FF0000FF",
+            "imgcolor": "#00FF2FFF",
+            "align": "Left",
+            "rotation": "",
+            "refreshVar": "False",
+            "sibling": null
+          }
+        },
+        {
+          "guid": "1a4e5d0eef1afee4",
+          "name": "Button",
+          "type": 2,
+          "prop": {
+            "imgcolorClick": "#C8C8C8FF",
+            "imgNormal": "Dark\\RTE_Component_Default Icon.png",
+            "imgClick": "Dark\\RuntimeAnimation Icon.png",
+            "action": "",
+            "layout": "",
+            "x": "942.251",
+            "y": "576.8414",
+            "w": "230",
+            "h": "80",
+            "text": "变量",
+            "size": "20",
+            "var": "变量",
+            "txtcolor": "#FF0000FF",
+            "imgcolor": "#FFFFFFFF",
+            "align": "Left",
+            "rotation": "",
+            "refreshVar": "False",
+            "sibling": null
+          }
+        },
+        {
+          "guid": "ebedb860264a6d16",
+          "name": "Table",
+          "type": 11,
+          "prop": {
+            "subprop": {
+              "lineColor": "#FF0000FF",
+              "tTxtColor": "#00FF13FF",
+              "tTxtSize": "22",
+              "firstName": "",
+              "rowPrefix": "",
+              "rowMin": "1",
+              "rowMax": "10",
+              "colMin": "1",
+              "colMax": "10",
+              "type": "Table"
+            },
+            "x": "226.1823",
+            "y": "125.7465",
+            "w": "300",
+            "h": "200",
+            "text": "表格",
+            "size": "",
+            "var": "",
+            "txtcolor": "",
+            "imgcolor": "#FFFFFFFF",
+            "align": "",
+            "rotation": "",
+            "refreshVar": "False",
+            "sibling": "5"
+          }
+        },
+        {
+          "guid": "c12cd087baf3dea9",
+          "name": "List",
+          "type": 12,
+          "prop": {
+            "subprop": {
+              "showNumCol": "0",
+              "numColName": "",
+              "maxLinePerPage": "10",
+              "gridTextColor": "#00F070FF",
+              "gridColor": "#FDFF00FF",
+              "gridTxtSize": "33",
+              "units": [],
+              "type": "List"
+            },
+            "x": "263.5684",
+            "y": "471.0703",
+            "w": "350",
+            "h": "300",
+            "text": "列表",
+            "size": "",
+            "var": "",
+            "txtcolor": "",
+            "imgcolor": "#FFFFFFFF",
+            "align": "",
+            "rotation": "",
+            "refreshVar": "False",
+            "sibling": "6"
+          }
+        },
+        {
+          "guid": "f5d7050e8f535f4e",
+          "name": "Time",
+          "type": 3,
+          "prop": {
+            "tformat": "yyyy-MM-dd hh:mm:ss dddd",
+            "x": "530.1422",
+            "y": "66.48834",
+            "w": "230",
+            "h": "80",
+            "text": "时间123",
+            "size": "20",
+            "var": "",
+            "txtcolor": "#000000FF",
+            "imgcolor": "",
+            "align": "Left",
+            "rotation": "",
+            "refreshVar": "False",
+            "sibling": "7"
+          }
+        },
+        {
+          "guid": "3edd92ee86378dd9",
+          "name": "Radio",
+          "type": 15,
+          "prop": {
+            "subprop": {
+              "isOn": "0",
+              "onName": "",
+              "onImg": "",
+              "offImg": "",
+              "imgW": "44",
+              "imgH": "33",
+              "nameLOffset": "22",
+              "nameTOffset": "33",
+              "type": "Radio"
+            },
+            "x": "509.8376",
+            "y": "325.9706",
+            "w": "30",
+            "h": "30",
+            "text": "勾选框",
+            "size": "",
+            "var": "",
+            "txtcolor": "",
+            "imgcolor": "#FFFFFF00",
+            "align": "",
+            "rotation": "",
+            "refreshVar": "False",
+            "sibling": "8"
+          }
+        },
+        {
+          "guid": "c2a9dfc6c679a2e2",
+          "name": "Bar",
+          "type": 13,
+          "prop": {
+            "subprop": {
+              "min": "1",
+              "max": "10",
+              "varColor": "#FFFFFFFF",
+              "txtColor": "#048A00FF",
+              "txtSize": "19",
+              "showMark": "1",
+              "type": "Bar"
+            },
+            "x": "652.071",
+            "y": "488.4071",
+            "w": "50",
+            "h": "300",
+            "text": "棒形图",
+            "size": "",
+            "var": "",
+            "txtcolor": "",
+            "imgcolor": "#FFFFFFFF",
+            "align": "",
+            "rotation": "0",
+            "refreshVar": "False",
+            "sibling": "9"
+          }
+        }
+      ]
+    },
+    {
+      "guid": "f6aac5073563bff",
+      "name": "画面1",
+      "type": 2,
+      "setting": {
+        "resolutionw": 800,
+        "resolutionh": 480,
+        "bgurl": "Camera Icon.png"
+      },
+      "components": []
+    },
+    {
+      "guid": "4c941dc5743fff2f",
+      "name": "画面www1",
+      "type": 2,
+      "setting": {
+        "resolutionw": 900,
+        "resolutionh": 680,
+        "bgurl": ""
+      },
+      "components": [
+        {
+          "guid": "92c07aff700f7218",
+          "name": "Text",
+          "type": 1,
+          "prop": {
+            "x": "364.5748",
+            "y": "176.2661",
+            "w": "230",
+            "h": "80",
+            "text": "文本",
+            "size": "20",
+            "var": "变量",
+            "txtcolor": "#000000FF",
+            "imgcolor": "#FFFFFFFF",
+            "align": null,
+            "rotation": null,
+            "refreshVar": null,
+            "sibling": null
+          }
+        },
+        {
+          "guid": "107cae5d637d1057",
+          "name": "Button",
+          "type": 2,
+          "prop": {
+            "imgcolorClick": "#C8C8C8FF",
+            "imgNormal": "",
+            "imgClick": "",
+            "action": null,
+            "layout": null,
+            "x": "241.5288",
+            "y": "389.5994",
+            "w": "230",
+            "h": "80",
+            "text": "按钮",
+            "size": "20",
+            "var": "变量",
+            "txtcolor": "#000000FF",
+            "imgcolor": "#FFFFFFFF",
+            "align": null,
+            "rotation": null,
+            "refreshVar": null,
+            "sibling": null
+          }
+        }
+      ]
+    },
+    {
+      "guid": "a89f72a28d44dcf7",
+      "name": "画面5",
+      "type": 2,
+      "setting": {
+        "resolutionw": 800,
+        "resolutionh": 480,
+        "bgurl": ""
+      },
+      "components": []
+    },
+    {
+      "guid": "f198529bc1b45067",
+      "name": "画面3",
+      "type": 2,
+      "setting": {
+        "resolutionw": 800,
+        "resolutionh": 480,
+        "bgurl": ""
+      },
+      "components": []
+    }
+  ]
+}

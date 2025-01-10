@@ -1,4 +1,4 @@
-#ifndef FILESOCKET_H
+﻿#ifndef FILESOCKET_H
 #define FILESOCKET_H
 
 #include <QObject>
@@ -7,12 +7,12 @@
 #include <chrono>
 #include <QTimer>
 #include <QFile>
-
 #include <filesocket.h>
 #include <QCoreApplication>
 #include <QDir>
 #include <QTime>
 
+#include "globals.h"
 
 #define UPLOAD_FILE          0x0F01      //上传文件命令
 #define SYN_FILE_LIST        0x0F02      //同步文件列表命令
@@ -52,6 +52,7 @@ public slots:
     //异常错误处理
     void displayError(QAbstractSocket::SocketError socketError);
     void onReceiveProgress();
+    void onReceiveJsonFile();
 
     void resetTimeout();
     void onTimeout();

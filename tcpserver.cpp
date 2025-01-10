@@ -31,6 +31,7 @@ void Tcpserver::incomingConnection(qintptr socketDescriptor)
         m_tcpSocketList.append(pTcpSocket);
         qDebug() << m_tcpSocketList;
         qDebug() << "Socket Thread" << QThread::currentThreadId();
+        //Globals::getInstance()->Logging(QString("Socket Thread:%1").arg(QThread::currentThreadId()));
     });
 
     thread->start();

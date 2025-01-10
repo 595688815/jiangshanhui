@@ -35,6 +35,7 @@ private slots:
 
     void on_DebugBtn_8_clicked();
 
+    void Rcv_Msg(QByteArray msg);
 private:
     Ui::MainWindow *ui;
     JsonFile* m_jsonfile;

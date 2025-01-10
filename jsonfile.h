@@ -8,7 +8,9 @@
 #include <iostream>
 #include <QList>
 #include "globals.h"
-
+/*
+界面类Json文件结构，弃用
+*/
 struct Prop
 {
     QString x;

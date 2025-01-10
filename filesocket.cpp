@@ -5,10 +5,9 @@ FileSocket::FileSocket(QObject *parent)
 {
     qDebug()<<"filesocket created";
     connect(this,SIGNAL(acceptError),this,SLOT(displayError));
-    connect(this,SIGNAL(readyRead()),this,SLOT(onReceiveProgress()));//
+    //connect(this,SIGNAL(readyRead()),this,SLOT(onReceiveProgress()));
+    connect(this,SIGNAL(readyRead()),this,SLOT(onReceiveJsonFile()));
     // connect(this, SIGNAL(bytesWritten(qint64)),this, SLOT(onUpdateSendProgress(qint64)));  //may be too late to call this while in loop
-
-
 
     m_timer = new QTimer(this);  //add this to set timer to child of this object,it allows us do not need to sdelete timer
     m_timer->setInterval(72000000); // 30分钟 = 1800000毫秒
@@ -46,7 +45,6 @@ void FileSocket::resetTimeout() {
 void FileSocket::onTimeout() {
     emit timeout(); // 发射超时信号
 }
-
 
 void FileSocket::onUpdateSendProgress(qint64 numBytes)
 {
@@ -91,12 +89,19 @@ void FileSocket::onUpdateSendProgress(qint64 numBytes)
     }
 }
 
-
+void FileSocket::onReceiveJsonFile()
+{
+    QFile file("config.json");
+    file.open(QIODevice::WriteOnly | QIODevice::Append);
+    file.write(readAll());
+    file.close();
+    Globals::getInstance()->Logging("Json File Recv");
+}
 
 void FileSocket::onReceiveProgress()
 {
     //1.传输大文件时，界面不会卡住
-    qDebug()<<"receive";
+    /*qDebug()<<"receive";
     QDataStream in(this);
     in.setVersion(QDataStream::Qt_6_6);
 
@@ -106,7 +111,15 @@ void FileSocket::onReceiveProgress()
         if((this->bytesAvailable()>=static_cast<long long>(sizeof(qint64)*3))&&(m_fileNameSize==0))
         {
             //(1)接收数据总大小和文件名大小和命令
+            QByteArray ar1,ar2,ar3;
             in>>m_totalBytes>>m_fileNameSize>>m_cmd;
+            in>>ar1>>ar2>>ar3;
+            qDebug()<<m_totalBytes;
+            qDebug()<<m_fileNameSize;
+            qDebug()<<m_cmd;
+            qDebug()<<ar1;
+            qDebug()<<ar2;
+            qDebug()<<ar3;
             m_bytesReceived +=sizeof(qint64)*3;
         }
         if((this->bytesAvailable()>=m_fileNameSize)&&(m_fileNameSize!=0))
@@ -120,7 +133,6 @@ void FileSocket::onReceiveProgress()
             //(3)解析命令：收到消息不处理，收到客户端上传命令建立文件
             if(m_cmd == UPLOAD_FILE)
             {
-
                 //创建同名文件
                 QString filePath = QCoreApplication::applicationDirPath();
                 QDir dir(filePath);
@@ -155,8 +167,6 @@ void FileSocket::onReceiveProgress()
         m_inBlock.resize(0);
     }
 
-
-
     // 接收数据完成时,字段初始化，防止数据污染
     if (m_bytesReceived == m_totalBytes)
     {
@@ -179,8 +189,9 @@ void FileSocket::onReceiveProgress()
             clearVar();
             sendFile();
         }
-    }
+    }*/
 }
+
 void FileSocket::getRemoteFileList()
 {
     QString fileList = QCoreApplication::applicationDirPath() + "/../../tcpFileServerFile/FILELIST.TXT";
@@ -218,8 +229,6 @@ void FileSocket::getRemoteFileList()
     f.close();
 }
 
-
-
 void FileSocket::clearVar()
 {
     m_fileNameSize = 0;
@@ -244,7 +253,7 @@ void FileSocket::displayError(QAbstractSocket::SocketError socketError)
 }
 
 void FileSocket::sendconfigFile(){
-    qDebug()<<"客户端请求下载远程config文件";
+    /*qDebug()<<"客户端请求下载远程config文件";
     QString sendFilelocation;
     QString fileList = QCoreApplication::applicationDirPath() + QString("/%1").arg(controllername);     //"/../../tcpFileServerFile/RemoteFile"
     qDebug()<<"fileList:"<<fileList;
@@ -277,13 +286,13 @@ void FileSocket::sendconfigFile(){
 
     onUpdateSendProgress(m_outBlock.size());
 
-    m_outBlock.resize(0);
+    m_outBlock.resize(0);*/
 }
 
 
 void FileSocket::sendFile()
 {
-    QString directoryPath = QCoreApplication::applicationDirPath() + QString("/%1").arg(controllername);
+    /*QString directoryPath = QCoreApplication::applicationDirPath() + QString("/%1").arg(controllername);
     qDebug()<<directoryPath;
     QDir dir(directoryPath);
 
@@ -344,5 +353,5 @@ void FileSocket::sendFile()
         onUpdateSendProgress(m_outBlock.size());
 
         m_outBlock.resize(0);
-    }
+    }*/
 }

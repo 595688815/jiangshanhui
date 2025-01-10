@@ -47,11 +47,12 @@ constexpr auto qt_meta_stringdata_CLASSMyTcpSocketENDCLASS = QtMocHelpers::strin
     "ResetTimeout",
     "OnTimeout",
     "Init",
-    "AnalyzData"
+    "AnalyzData",
+    "str"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSMyTcpSocketENDCLASS_t {
-    uint offsetsAndSizes[20];
+    uint offsetsAndSizes[22];
     char stringdata0[12];
     char stringdata1[8];
     char stringdata2[1];
@@ -62,6 +63,7 @@ struct qt_meta_stringdata_CLASSMyTcpSocketENDCLASS_t {
     char stringdata7[10];
     char stringdata8[5];
     char stringdata9[11];
+    char stringdata10[4];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSMyTcpSocketENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -76,7 +78,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSMyTcpSocketENDCLASS_t qt_meta_s
         QT_MOC_LITERAL(47, 12),  // "ResetTimeout"
         QT_MOC_LITERAL(60, 9),  // "OnTimeout"
         QT_MOC_LITERAL(70, 4),  // "Init"
-        QT_MOC_LITERAL(75, 10)   // "AnalyzData"
+        QT_MOC_LITERAL(75, 10),  // "AnalyzData"
+        QT_MOC_LITERAL(86, 3)   // "str"
     },
     "MyTcpSocket",
     "Timeout",
@@ -87,7 +90,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSMyTcpSocketENDCLASS_t qt_meta_s
     "ResetTimeout",
     "OnTimeout",
     "Init",
-    "AnalyzData"
+    "AnalyzData",
+    "str"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -115,7 +119,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMyTcpSocketENDCLASS[] = {
        6,    0,   61,    2, 0x0a,    5 /* Public */,
        7,    0,   62,    2, 0x0a,    6 /* Public */,
        8,    0,   63,    2, 0x0a,    7 /* Public */,
-       9,    0,   64,    2, 0x0a,    8 /* Public */,
+       9,    1,   64,    2, 0x0a,    8 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -126,7 +130,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMyTcpSocketENDCLASS[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Bool,
+    QMetaType::Bool, QMetaType::QByteArray,   10,
 
        0        // eod
 };
@@ -154,7 +158,8 @@ Q_CONSTINIT const QMetaObject MyTcpSocket::staticMetaObject = { {
         // method 'Init'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'AnalyzData'
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QByteArray, std::false_type>
     >,
     nullptr
 } };
@@ -171,7 +176,7 @@ void MyTcpSocket::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 3: _t->ResetTimeout(); break;
         case 4: _t->OnTimeout(); break;
         case 5: _t->Init(); break;
-        case 6: { bool _r = _t->AnalyzData();
+        case 6: { bool _r = _t->AnalyzData((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }

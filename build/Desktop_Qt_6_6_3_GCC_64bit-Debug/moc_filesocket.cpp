@@ -47,12 +47,13 @@ constexpr auto qt_meta_stringdata_CLASSFileSocketENDCLASS = QtMocHelpers::string
     "QAbstractSocket::SocketError",
     "socketError",
     "onReceiveProgress",
+    "onReceiveJsonFile",
     "resetTimeout",
     "onTimeout"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSFileSocketENDCLASS_t {
-    uint offsetsAndSizes[22];
+    uint offsetsAndSizes[24];
     char stringdata0[11];
     char stringdata1[8];
     char stringdata2[1];
@@ -62,8 +63,9 @@ struct qt_meta_stringdata_CLASSFileSocketENDCLASS_t {
     char stringdata6[29];
     char stringdata7[12];
     char stringdata8[18];
-    char stringdata9[13];
-    char stringdata10[10];
+    char stringdata9[18];
+    char stringdata10[13];
+    char stringdata11[10];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSFileSocketENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -78,8 +80,9 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSFileSocketENDCLASS_t qt_meta_st
         QT_MOC_LITERAL(63, 28),  // "QAbstractSocket::SocketError"
         QT_MOC_LITERAL(92, 11),  // "socketError"
         QT_MOC_LITERAL(104, 17),  // "onReceiveProgress"
-        QT_MOC_LITERAL(122, 12),  // "resetTimeout"
-        QT_MOC_LITERAL(135, 9)   // "onTimeout"
+        QT_MOC_LITERAL(122, 17),  // "onReceiveJsonFile"
+        QT_MOC_LITERAL(140, 12),  // "resetTimeout"
+        QT_MOC_LITERAL(153, 9)   // "onTimeout"
     },
     "FileSocket",
     "timeout",
@@ -90,6 +93,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSFileSocketENDCLASS_t qt_meta_st
     "QAbstractSocket::SocketError",
     "socketError",
     "onReceiveProgress",
+    "onReceiveJsonFile",
     "resetTimeout",
     "onTimeout"
 };
@@ -103,7 +107,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFileSocketENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       6,   14, // methods
+       7,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -111,14 +115,15 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFileSocketENDCLASS[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   50,    2, 0x06,    1 /* Public */,
+       1,    0,   56,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    1,   51,    2, 0x0a,    2 /* Public */,
-       5,    1,   54,    2, 0x0a,    4 /* Public */,
-       8,    0,   57,    2, 0x0a,    6 /* Public */,
-       9,    0,   58,    2, 0x0a,    7 /* Public */,
-      10,    0,   59,    2, 0x0a,    8 /* Public */,
+       3,    1,   57,    2, 0x0a,    2 /* Public */,
+       5,    1,   60,    2, 0x0a,    4 /* Public */,
+       8,    0,   63,    2, 0x0a,    6 /* Public */,
+       9,    0,   64,    2, 0x0a,    7 /* Public */,
+      10,    0,   65,    2, 0x0a,    8 /* Public */,
+      11,    0,   66,    2, 0x0a,    9 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -126,6 +131,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFileSocketENDCLASS[] = {
  // slots: parameters
     QMetaType::Void, QMetaType::LongLong,    4,
     QMetaType::Void, 0x80000000 | 6,    7,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -152,6 +158,8 @@ Q_CONSTINIT const QMetaObject FileSocket::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<QAbstractSocket::SocketError, std::false_type>,
         // method 'onReceiveProgress'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'onReceiveJsonFile'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'resetTimeout'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'onTimeout'
@@ -170,8 +178,9 @@ void FileSocket::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 1: _t->onUpdateSendProgress((*reinterpret_cast< std::add_pointer_t<qint64>>(_a[1]))); break;
         case 2: _t->displayError((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
         case 3: _t->onReceiveProgress(); break;
-        case 4: _t->resetTimeout(); break;
-        case 5: _t->onTimeout(); break;
+        case 4: _t->onReceiveJsonFile(); break;
+        case 5: _t->resetTimeout(); break;
+        case 6: _t->onTimeout(); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -216,13 +225,13 @@ int FileSocket::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 7;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 7;
     }
     return _id;
 }

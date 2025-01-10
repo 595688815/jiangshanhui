@@ -6,15 +6,12 @@
 #include <chrono>
 #include <QTimer>
 
-
-
 class MyTcpSocket : public QTcpSocket
 {
     Q_OBJECT
 public:
     explicit MyTcpSocket(QObject *parent = nullptr);
     ~MyTcpSocket();
-
 signals:
     void Timeout();
 public slots:
@@ -23,7 +20,7 @@ public slots:
     void ResetTimeout();
     void OnTimeout();
     void Init();
-    bool AnalyzData();
+    bool AnalyzData(QByteArray str);
 
 private:
     QTimer *m_timer;
