@@ -7,7 +7,7 @@
 #include <QFile>
 #include <iostream>
 #include <QList>
-#include "globals.h"
+#include "Globals/globals.h"
 /*
 界面类Json文件结构，弃用
 */

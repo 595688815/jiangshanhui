@@ -5,6 +5,7 @@
 #include <QDebug>
 #include <chrono>
 #include <QTimer>
+#include "Globals/globals.h"
 
 class MyTcpSocket : public QTcpSocket
 {
@@ -20,8 +21,8 @@ public slots:
     void ResetTimeout();
     void OnTimeout();
     void Init();
-    bool AnalyzData(QByteArray str);
-
+    virtual bool AnalyzeRcvData(QByteArray str){};
+    virtual void HandleRcvData(QList<QByteArray> str){};
 private:
     QTimer *m_timer;
 };

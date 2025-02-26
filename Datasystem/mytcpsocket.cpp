@@ -40,7 +40,10 @@ void MyTcpSocket::RecvMsg()
 {
     QByteArray lstr = readAll();
     qDebug()<<lstr;
-    AnalyzData(lstr);
+    if(AnalyzeRcvData(lstr))
+    {
+        HandleRcvData(lstr.split(','));
+    }
 }
 /*
  * 函数名：SendMsg
@@ -72,20 +75,4 @@ void MyTcpSocket::OnTimeout()
 {
     qDebug()<<"no signal between client and server,connection is disconnected";
     emit Timeout(); // 发射超时信号
-}
-/*
- * 函数名：AnalyzData
- * 参数：无
- * 返回：bool
- * 函数说明：分析接收到的数据内容
-*/
-bool MyTcpSocket::AnalyzData(QByteArray str)
-{
-    //根据str数据类型区分处理
-    if(str=="")
-    {
-        qDebug()<<"AnalyzeData Empyt!";
-        return false;
-    }
-    if(str[0]=='@');
 }

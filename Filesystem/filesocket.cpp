@@ -92,7 +92,7 @@ void FileSocket::onUpdateSendProgress(qint64 numBytes)
 void FileSocket::onReceiveJsonFile()
 {
     QFile file("config.json");
-    file.open(QIODevice::WriteOnly | QIODevice::Append);
+    file.open(QIODevice::WriteOnly | QIODevice::Truncate);
     file.write(readAll());
     file.close();
     Globals::getInstance()->Logging("Json File Recv");

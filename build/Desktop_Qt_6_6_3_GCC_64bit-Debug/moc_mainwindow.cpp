@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../mainwindow.h"
+#include "../../Globals/mainwindow.h"
 #include <QtCore/qmetatype.h>
 
 #if __has_include(<QtCore/qtmochelpers.h>)
@@ -48,12 +48,11 @@ constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::string
     "on_DebugBtn_6_clicked",
     "on_DebugBtn_7_clicked",
     "on_DebugBtn_8_clicked",
-    "Rcv_Msg",
-    "msg"
+    "Rcv_Msg"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {
-    uint offsetsAndSizes[24];
+    uint offsetsAndSizes[22];
     char stringdata0[11];
     char stringdata1[20];
     char stringdata2[1];
@@ -65,7 +64,6 @@ struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {
     char stringdata8[22];
     char stringdata9[22];
     char stringdata10[8];
-    char stringdata11[4];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSMainWindowENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -81,8 +79,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSMainWindowENDCLASS_t qt_meta_st
         QT_MOC_LITERAL(120, 21),  // "on_DebugBtn_6_clicked"
         QT_MOC_LITERAL(142, 21),  // "on_DebugBtn_7_clicked"
         QT_MOC_LITERAL(164, 21),  // "on_DebugBtn_8_clicked"
-        QT_MOC_LITERAL(186, 7),  // "Rcv_Msg"
-        QT_MOC_LITERAL(194, 3)   // "msg"
+        QT_MOC_LITERAL(186, 7)   // "Rcv_Msg"
     },
     "MainWindow",
     "on_DebugBtn_clicked",
@@ -94,8 +91,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSMainWindowENDCLASS_t qt_meta_st
     "on_DebugBtn_6_clicked",
     "on_DebugBtn_7_clicked",
     "on_DebugBtn_8_clicked",
-    "Rcv_Msg",
-    "msg"
+    "Rcv_Msg"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -123,7 +119,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
        7,    0,   73,    2, 0x08,    6 /* Private */,
        8,    0,   74,    2, 0x08,    7 /* Private */,
        9,    0,   75,    2, 0x08,    8 /* Private */,
-      10,    1,   76,    2, 0x08,    9 /* Private */,
+      10,    0,   76,    2, 0x08,    9 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -134,7 +130,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QByteArray,   11,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -165,8 +161,7 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         // method 'on_DebugBtn_8_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'Rcv_Msg'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<QByteArray, std::false_type>
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
@@ -185,10 +180,11 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 5: _t->on_DebugBtn_6_clicked(); break;
         case 6: _t->on_DebugBtn_7_clicked(); break;
         case 7: _t->on_DebugBtn_8_clicked(); break;
-        case 8: _t->Rcv_Msg((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
+        case 8: _t->Rcv_Msg(); break;
         default: ;
         }
     }
+    (void)_a;
 }
 
 const QMetaObject *MainWindow::metaObject() const

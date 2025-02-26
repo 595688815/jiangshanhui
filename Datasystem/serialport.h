@@ -5,10 +5,11 @@
 #include <QObject>
 #include <QSerialPort>
 #include <QSerialPortInfo>
+#include "datafreshthread.h"
 
 /*
-通讯基类
-*/
+ * 通讯管理类,只管理通讯参数,通讯内容对应具体项目类
+ */
 class SerialPort : public QObject
 {
     Q_OBJECT
@@ -24,13 +25,6 @@ public:
     QString GetPortStop();
     QString GetPortData();
     bool OpenPort();
-    //通讯部分
-    bool SendMsg(QByteArray msg);
-    QByteArray GetRevBuf();
-    void ClearList();
-    bool AnalyzerMessage();
-    //CRC校验处理部分
-    unsigned short getCRC(char* buf, int length);
     //接口类
     QSerialPort* m_serialport;
 private:
@@ -40,11 +34,7 @@ private:
     QString m_portstop;
     QString m_portdata;
 
-    QByteArray m_rev_buffer;    //数据缓冲区
-public slots:
-    void RevMsgToBuf();
-signals:
-    void RcvMsg(QByteArray);
+    DataFreshThread *m_msg_thread;   //线程控制类
 };
 
 #endif // SERIALPORT_H

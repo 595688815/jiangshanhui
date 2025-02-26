@@ -1,1 +1,6 @@
-new file connectionttyUSB0:new file connectionttyS0:new file connectionttyUSB0:new file connectionttyS0:new file connectionttyUSB0:new file connectionttyS0:new file connectionttyUSB0:new file connectionttyS0:new file connection
+ttyS0:new file connection
+ttyS0:new file connection
+ttyS0:new file connection
+ttyS0:new file connection
+ttyS0:new file connection
+ttyS0:new file connection

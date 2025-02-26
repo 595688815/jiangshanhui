@@ -1,8 +1,9 @@
 #include "systemsql.h"
+#include "Globals/globals.h"
 
-systemsql *systemsql::m_sql=nullptr;
+SystemSql *SystemSql::m_sql=nullptr;
 
-systemsql::systemsql()
+SystemSql::SystemSql()
 {
 
 }
@@ -12,33 +13,32 @@ systemsql::systemsql()
 * 返回：bool
 * 功能：打开MYSQL
 */
-bool systemsql::ConnectToMySQL()
+bool SystemSql::ConnectToMySQL(QString sqlname)
 {
-    //创建数据库驱动
-    qDebug()<<"QSqlDatabase::drivers();"<<QSqlDatabase::drivers();
     m_db=QSqlDatabase::addDatabase("QMYSQL");
     m_db.setHostName("localhost");
-    m_db.setDatabaseName("systemdata");
+    m_db.setDatabaseName(sqlname);
     m_db.setUserName("root");
-    m_db.setPassword("Root123456..");
-
+    m_db.setPassword("123456");
     if(!m_db.open()){
         qDebug() << "数据库连接失败：" << m_db.lastError();
-        return -1;
+        Globals::getInstance()->Logging("数据库连接失败：" + m_db.lastError().text());
+        return false;
     }
-    qDebug()<<"openSuccess!";
+    qDebug()<<"Connect Success!";
+    return true; // 连接数据库成功
 }
 /*
 * 函数名：getInstance
 * 参数：无
-* 返回：systemsql*
+* 返回：SystemSql*
 * 功能：返回单例
 */
-systemsql* systemsql::getInstance()
+SystemSql* SystemSql::getInstance()
 {
     //单例模式
     if(nullptr==m_sql){
-        m_sql=new systemsql();
+        m_sql=new SystemSql();
     }
     return m_sql;
 }
@@ -48,7 +48,7 @@ systemsql* systemsql::getInstance()
 * 返回：bool
 * 功能：创建名为arg1的数据表格，列内容由arg2决定，失败返回false，成功返回true
 */
-bool systemsql::CreateTable(const QString& tableName, const QStringList& fieldNames)
+bool SystemSql::CreateTable(const QString& tableName, const QStringList& fieldNames)
 {
     QSqlQuery sql(m_db);
     QString createTableQuery = QString("CREATE TABLE %1 (").arg(tableName);
@@ -74,7 +74,7 @@ bool systemsql::CreateTable(const QString& tableName, const QStringList& fieldNa
 * 返回：bool
 * 功能：向arg1的数据表格添加数据，内容由arg2决定，失败返回false，成功返回true
 */
-bool systemsql::InsertData(QString tablename,QStringList tabledata)
+bool SystemSql::InsertData(QString tablename,QStringList tabledata)
 {
     if(tabledata.size()<1)
         return false;
@@ -106,7 +106,7 @@ bool systemsql::InsertData(QString tablename,QStringList tabledata)
 * 返回：bool
 * 功能：删除表格名为tablename的序列号为num的数据，每个数据都有自己唯一序列号
 */
-bool systemsql::DeleteData(QString tablename,QString num)
+bool SystemSql::DeleteData(QString tablename,QString num)
 {
     if(tablename==""||num=="")
         return false;
@@ -129,7 +129,7 @@ bool systemsql::DeleteData(QString tablename,QString num)
 * 返回：bool
 * 功能：删除名为tablename的表格
 */
-bool systemsql::DeleteTable(QString tablename)
+bool SystemSql::DeleteTable(QString tablename)
 {
     if(tablename=="")
         return false;
@@ -143,4 +143,14 @@ bool systemsql::DeleteTable(QString tablename)
         return false;
     }
     return true;
+}
+/*
+* 函数名：InitFromMysql
+* 参数：无
+* 返回：无
+* 功能：从数据库导入并注册变量
+*/
+void SystemSql::InitFromMysql()
+{
+
 }

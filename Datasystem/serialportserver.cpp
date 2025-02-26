@@ -36,7 +36,12 @@ bool SerialPortServer::AddSerialPort(QString portname)
         return false;
     }
 }
-
+/*
+ * 函数名：GetAllComList
+ * 参数：QStringList
+ * 返回：无
+ * 函数说明：获取设备列表
+*/
 QStringList SerialPortServer::GetAllComList()
 {
     QList<QSerialPortInfo> ports = QSerialPortInfo::availablePorts();
@@ -46,4 +51,14 @@ QStringList SerialPortServer::GetAllComList()
         list.append(port.portName());
     }
     return list;
+}
+/*
+ * 函数名：GetAllConnectedSerialPort
+ * 参数：无
+ * 返回：QList<SerialPort*>
+ * 函数说明：获取所有已连接设备列表
+*/
+QList<SerialPort*> SerialPortServer::GetAllConnectedSerialPort()
+{
+    return m_serialport_list;
 }

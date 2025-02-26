@@ -7,12 +7,12 @@
 #include <chrono>
 #include <QTimer>
 #include <QFile>
-#include <filesocket.h>
+#include "filesocket.h"
 #include <QCoreApplication>
 #include <QDir>
 #include <QTime>
 
-#include "globals.h"
+#include "Globals/globals.h"
 
 #define UPLOAD_FILE          0x0F01      //上传文件命令
 #define SYN_FILE_LIST        0x0F02      //同步文件列表命令

@@ -2,9 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "systemsql.h"
-#include "jsonfile.h"
-#include "systembaseuser.h"
+#include "Mysql/systemsql.h"
+#include "Filesystem/jsonfile.h"
+#include "Datasystem/serialport.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -35,10 +35,11 @@ private slots:
 
     void on_DebugBtn_8_clicked();
 
-    void Rcv_Msg(QByteArray msg);
+    void Rcv_Msg();
 private:
     Ui::MainWindow *ui;
     JsonFile* m_jsonfile;
+    SerialPort *m_serialport;
 };
 
 #endif // MAINWINDOW_H

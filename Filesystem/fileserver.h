@@ -6,7 +6,7 @@
 #include <QAbstractSocket>
 #include <sys/socket.h>
 #include <netinet/tcp.h>
-#include <filesocket.h>
+#include "filesocket.h"
 #include <QTime>
 
 #define UPLOAD_FILE          0x0F01      //上传文件命令

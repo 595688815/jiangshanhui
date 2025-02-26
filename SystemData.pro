@@ -1,5 +1,6 @@
 QT       += core gui sql network serialport serialbus
 
+
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
@@ -18,67 +19,31 @@ LIBS += -L/usr/include/modbus/lib -lmodbus
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    fileserver.cpp \
-    filesocket.cpp \
-    globals.cpp \
-    jsonfile.cpp \
-    main.cpp \
-    mainwindow.cpp \
-    modbustcpclient.cpp \
-    mytcpsocket.cpp \
-    project_changhui.cpp \
-    serialport.cpp \
-    serialportserver.cpp \
-    systembase.cpp \
-    systembaseallog.cpp \
-    systembasedatahis.cpp \
-    systembasedatarec.cpp \
-    systembasedatart.cpp \
-    systembasedepartment.cpp \
-    systembasedevice.cpp \
-    systembasegroup.cpp \
-    systembasemanagers.cpp \
-    systembaseoperations.cpp \
-    systembaseoplog.cpp \
-    systembaseroles.cpp \
-    systembasesheet.cpp \
-    systembasesheetdata.cpp \
-    systembasesheetfield.cpp \
-    systembasesyslog.cpp \
-    systembaseuser.cpp \
-    systemsql.cpp \
-    tcpserver.cpp
+    Datasystem/datafreshthread.cpp \
+    Datasystem/mytcpsocket.cpp \
+    Datasystem/serialport.cpp \
+    Datasystem/serialportserver.cpp \
+    Datasystem/tcpserver.cpp \
+    Filesystem/fileserver.cpp \
+    Filesystem/filesocket.cpp \
+    Filesystem/jsonfile.cpp \
+    Globals/globals.cpp \
+    Globals/main.cpp \
+    Globals/mainwindow.cpp \
+    Mysql/systemsql.cpp \
 
 HEADERS += \
-    fileserver.h \
-    filesocket.h \
-    globals.h \
-    jsonfile.h \
-    mainwindow.h \
-    modbustcpclient.h \
-    mytcpsocket.h \
-    project_changhui.h \
-    serialport.h \
-    serialportserver.h \
-    systembase.h \
-    systembaseallog.h \
-    systembasedatahis.h \
-    systembasedatarec.h \
-    systembasedatart.h \
-    systembasedepartment.h \
-    systembasedevice.h \
-    systembasegroup.h \
-    systembasemanagers.h \
-    systembaseoperations.h \
-    systembaseoplog.h \
-    systembaseroles.h \
-    systembasesheet.h \
-    systembasesheetdata.h \
-    systembasesheetfield.h \
-    systembasesyslog.h \
-    systembaseuser.h \
-    systemsql.h \
-    tcpserver.h
+    Datasystem/datafreshthread.h \
+    Datasystem/mytcpsocket.h \
+    Datasystem/serialport.h \
+    Datasystem/serialportserver.h \
+    Datasystem/tcpserver.h \
+    Filesystem/fileserver.h \
+    Filesystem/filesocket.h \
+    Filesystem/jsonfile.h \
+    Globals/globals.h \
+    Globals/mainwindow.h \
+    Mysql/systemsql.h \
 
 FORMS += \
     mainwindow.ui

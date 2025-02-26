@@ -2,7 +2,7 @@
 #define TCPSERVER_H
 
 #include <QTcpServer>
-#include "globals.h"
+#include "Globals/globals.h"
 #include "mytcpsocket.h"
 
 class Tcpserver : public QTcpServer
