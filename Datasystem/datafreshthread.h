@@ -32,7 +32,13 @@ private:
     bool m_thread_quit_flag;            //线程退出管理
     QByteArray m_rcv_buffer;            //接收缓冲区
     int m_send_step;                    //发送步骤管理标志位
+    //这是个端口指针，用来实例化串口对象用的
+    //这里直接调用了QT的COM通讯接口
+    //QSerialPort这是QT的串口类
+    //是封装好的一个类
+    //QT提供了串口API，可以直接用这个类的成员函数就能实现数据的通讯和端口的控制
     QSerialPort *m_serialport;          //端口
+
 private slots:
     virtual void RcvAllMessage();
 };

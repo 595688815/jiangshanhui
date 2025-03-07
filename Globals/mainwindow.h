@@ -5,6 +5,8 @@
 #include "Mysql/systemsql.h"
 #include "Filesystem/jsonfile.h"
 #include "Datasystem/serialport.h"
+#include "DPLCExt/dplcserver.h"
+#include "Globals/debugdialog.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -17,6 +19,8 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+
+    static void test();
 
 private slots:
     void on_DebugBtn_clicked();
@@ -38,8 +42,11 @@ private slots:
     void Rcv_Msg();
 private:
     Ui::MainWindow *ui;
-    JsonFile* m_jsonfile;
     SerialPort *m_serialport;
+    std::thread *t;
+    DebugDialog *m_debugdlg;
+signals:
+    void Exit_Soft();
 };
 
 #endif // MAINWINDOW_H

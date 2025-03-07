@@ -50,7 +50,7 @@ SystemSql* SystemSql::getInstance()
 */
 bool SystemSql::CreateTable(const QString& tableName, const QStringList& fieldNames)
 {
-    QSqlQuery sql(m_db);
+    QSqlQuery sql;
     QString createTableQuery = QString("CREATE TABLE %1 (").arg(tableName);
     for (int i = 0; i < fieldNames.size(); ++i)
     {
@@ -63,7 +63,9 @@ bool SystemSql::CreateTable(const QString& tableName, const QStringList& fieldNa
     createTableQuery += ");"; // 结束 CREATE TABLE 语句
     if (!sql.exec(createTableQuery))
     {
+        qDebug() << createTableQuery;
         qDebug() << "创建表失败";
+        qDebug() <<sql.lastError().text();
         return false;
     }
     return true;
@@ -148,9 +150,9 @@ bool SystemSql::DeleteTable(QString tablename)
 * 函数名：InitFromMysql
 * 参数：无
 * 返回：无
-* 功能：从数据库导入并注册变量
+* 功能：初始化数据库
 */
-void SystemSql::InitFromMysql()
+void SystemSql::InitMysql()
 {
 
 }

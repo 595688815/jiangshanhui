@@ -1,0 +1,152 @@
+{
+  "setting": {
+    "resolution": 11
+  },
+  "mozuList": [],
+  "gongweiList": [
+    {
+      "name": "工位1",
+      "group": "",
+      "guid": null,
+      "twoD": [
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "5d0a748c43625c7d",
+              "name": "DI4",
+              "type": 1,
+              "sibling": 0,
+              "x": -213.305115,
+              "y": 28.2236328,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindAddr": "None",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "a95aa7c31510e6a2",
+                    "other": "eaafc4e034530c5",
+                    "sibling": 3
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "685afa0700bf47e1",
+              "name": "DO4",
+              "type": 2,
+              "sibling": 1,
+              "x": 72.58563,
+              "y": -6.814973,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "479e70f8480720d3",
+                    "other": "74178e553da55840",
+                    "sibling": 3
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "a184f2dcdcae804c",
+              "name": "SC3",
+              "type": 13,
+              "sibling": 2,
+              "x": -128.854675,
+              "y": -56.71645,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "OPEN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "74178e553da55840",
+                    "other": "479e70f8480720d3",
+                    "sibling": 3
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "CLOSE",
+                  "trigger": "",
+                  "guid": {
+                    "self": "b40ec7c23cc55840",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "ACK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "dd520458ac675840",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "eaafc4e034530c5",
+                    "other": "a95aa7c31510e6a2",
+                    "sibling": 5
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "ALARM",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5fb188387b0e8ca2",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

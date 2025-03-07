@@ -1,0 +1,35 @@
+{
+    "ip":"http://10.0.0.131",
+    "port":5000,
+    "socketdata":"192.168.190.133",
+    "portdata":9999,
+    "socketfile":"192.168.190.133",
+    "portfile":9527,
+    "sn":"01",
+    "IO":
+    [
+        {"type":1, "name":"DI","addr":"","desc":"","input":[], "output":[{"1":"OUT"}]},
+        {"type":2, "name":"DO","addr":"","desc":"","input":[{"1":"IN"}], "output":[]},
+        {"type":3, "name":"M","addr":"","desc":"","input":[{"1":"IN"}], "output":[{"1":"OUT"}]},
+        {"type":19, "name":"N","addr":"","desc":"","input":[{"1":"IN"}], "output":[{"1":"OUT"}]},
+        {"type":20, "name":"F","addr":"","desc":"","input":[{"1":"IN"}], "output":[{"1":"OUT"}]},
+        {"type":4, "name":"AI","addr":"","desc":"","input":[{"1":"IN"}], "output":[]},
+        {"type":5, "name":"AO","addr":"","desc":"","input":[], "output":[{"1":"OUT"}]},
+        {"type":22, "name":"AM","addr":"","desc":"","input":[{"1":"TRIGGER"}], "output":[{"1":"ALARM"}]},
+        {"type":23, "name":"TRIGGER","addr":"","desc":"","input":[{"1":"IN"}], "output":[{"1":"OUT"}]},
+        {"type":13, "name":"SC","addr":"","desc":"","input":[{"1":"OPEN"},{"2":"CLOSE"},{"3":"ACK"}], "output":[{"1":"OUT"},{"2":"ALARM"}]},
+        {"type":14, "name":"DC","addr":"","desc":"","input":[{"1":"OPEN"},{"2":"CLOSE"},{"3":"ACK"}], "output":[{"1":"OUT1"},{"2":"OUT2"},{"3":"ALARM"}]},
+        {"type":15, "name":"PC","addr":"","desc":"","input":[{"1":"IN"},{"2":"PARAM1"},{"3":"PARAM2"},{"4":"PARAM3"},{"5":"PARAM4"},{"6":"ACK"}], "output":[{"1":"OUT"},{"2":"PARAM1"},{"3":"PARAM2"},{"4":"PARAM3"},{"5":"PARAM4"},{"6":"ALARM"}]},
+        {"type":16, "name":"SS","addr":"","desc":"","input":[{"1":"IN"}], "output":[{"1":"OUT"}]},
+        {"type":17, "name":"DS","addr":"","desc":"","input":[{"1":"IN1"},{"2":"IN2"}], "output":[{"1":"V1"},{"2":"V2"},{"3":"OUT"}]},
+        {"type":18, "name":"CC","addr":"","desc":"","input":[{"1":"EN"},{"2":"RST"},{"3":"TRIGGER"},{"4":"OVER"}], "output":[{"1":"RST"},{"2":"ACT"},{"3":"NEXT"},{"4":"ALARM"}]},
+        {"type":7, "name":"BRANCH","addr":"","desc":"","input":[{"1":"IN"}], "output":[{"1":"OUT1"},{"2":"OUT2"},{"3":"OUT3"},{"4":"OUT4"},{"4":"OUT5"}]},
+        {"type":8, "name":"AND","addr":"","desc":"","input":[{"1":"IN1"},{"2":"IN2"},{"3":"IN3"},{"4":"IN4"},{"5":"IN5"}], "output":[{"1":"OUT"}]},
+        {"type":9, "name":"OR","addr":"","desc":"","input":[{"1":"IN1"},{"2":"IN2"},{"3":"IN3"},{"4":"IN4"},{"5":"IN5"}], "output":[{"1":"OUT"}]},
+        {"type":10, "name":"NOT","addr":"","desc":"","input":[{"1":"IN"}], "output":[{"1":"OUT"}]},        
+        {"type":21, "name":"加工工位","addr":"","desc":"","input":[{"1":"上工位","type":"special"},{"2":"准备好"},{"3":"上料准备好"},{"4":"上料完成"},{"5":"下料准备好"},{"6":"已下料"}], "output":[{"1":"下工位","type":"special"},{"2":"准备上料"},{"3":"上料"},{"4":"加工"},{"5":"下料"}], "addition":[{"name":"BOM","type":"info"},{"name":"加工数据","type":"info"},{"name":"准备上料状态","type":"state"},{"name":"上料状态","type":"state"},{"name":"加工状态","type":"state"},{"name":"下料状态","type":"state"}]},
+        {"type":24, "name":"检测工位","addr":"","desc":"","input":[{"1":"上工位","type":"special"},{"2":"EN"},{"3":"上料准备好"},{"4":"上料完成"},{"5":"下料准备好"},{"6":"已下料"},{"7":"OK"},{"8":"NG"},{"9":"OK已下料"},{"10":"NG已下料"}], "output":[{"1":"下工位OK","type":"special"},{"2":"下工位NG","type":"special"},{"3":"准备上料"},{"4":"上料"},{"5":"检测"},{"6":"OK下料"},{"7":"NG下料"}], "addition":[]},
+        {"type":11, "name":"VCC","addr":"","desc":"","input":[], "output":[{"1":"VCC"}]},
+        {"type":12, "name":"RESET","addr":"","desc":"","input":[], "output":[{"1":"RESET"}]}
+    ]
+}

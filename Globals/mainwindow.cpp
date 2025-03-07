@@ -2,9 +2,14 @@
 #include "ui_mainwindow.h"
 
 #include <iostream>
+#include <QCoreApplication>
 #include <ctime>
 #include <iomanip>
 #include <QDateTime>
+#include <sstream>
+#include <thread>
+#include <QTimer>
+#include <QProcess>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -25,60 +30,69 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow()
 {
+
     delete ui;
+}
+
+void MainWindow::test()
+{
+    qDebug()<<"123";
 }
 
 void MainWindow::on_DebugBtn_clicked()
 {
-    // QByteArray str=Project_Changhui_SP::getInstance()->AskMai8DynamicsData();
+    m_debugdlg=new DebugDialog;
+    m_debugdlg->show();
+    //ui->textEdit->setText(msg);
+    //JsonFile::getInstance()->VarToJsonFile();
+    //std::thread t(test);
+    //MainWindow::t.join();
+    //t.join();
+    //char* ch1=new char('0');
+    // uint16_t crc = Globals::getInstance()->getCRC(ch,5);
+
+    // QByteArray str;//=Project_Changhui_SP::getInstance()->AskMai8DynamicsData();
     // m_serialport->m_serialport->write(str);
 }
 
 void MainWindow::on_DebugBtn_2_clicked()
 {
-    SystemSql::getInstance()->ConnectToMySQL("ChangHuiSql");
-    // QString lstr=ui->lineEdit->text();
-    // QStringList list=ui->lineEdit_2->text().split(',');
-    // systemsql::getInstance()->InsertData(lstr,list);
-    // QByteArray msg="";
-    // msg.append(0x01);   //地址
-    // msg.append(0x03);   //读标识
-    // msg.append((char)0x00);
-    // msg.append((char)0x00);
-    // msg.append((char)0x00);
-    // msg.append(0x30);
-    // msg.append(0x45);
-    // msg.append(0xDE);
-    // if (m_serialport->m_serialport != nullptr)
-    // {
-    //     if(!m_serialport->m_serialport->write(msg))
-    //         qDebug()<<"Send Fail";
-    // }
+    qDebug() << QSqlDatabase::drivers();
+    //SystemSql::getInstance()->ConnectToMySQL("SystemData");
+    //unsigned char a = Globals::getInstance()->m_var_value_array[0];
+    //a++;
+    // uint8_t ch[4];
+    // float f=3.14f;
+    // memcpy(ch,&f,sizeof(f));
+    // qDebug()<<ch[0];
+    // qDebug()<<ch[1];
+    // qDebug()<<ch[2];
+    // qDebug()<<ch[3];
+    // float f1=*((float*)ch);
+    // qDebug()<<f1;
 }
 
 void MainWindow::on_DebugBtn_3_clicked()
 {
-    QString lstr=ui->lineEdit->text();
-    QStringList list=ui->lineEdit_2->text().split(',');
-    SystemSql::getInstance()->CreateTable(lstr,list);
+    QStringList list;
+    list<<"name"<<"start"<<"fresh";
+    SystemSql::getInstance()->CreateTable("VCC",list);
 }
 
 void MainWindow::on_DebugBtn_4_clicked()
 {
-    QString lstr=ui->lineEdit->text();
-    QString num=ui->lineEdit_2->text();
-    SystemSql::getInstance()->DeleteData(lstr,num);
+
 }
 
 void MainWindow::on_DebugBtn_5_clicked()
 {
-    SystemSql::getInstance()->DeleteTable(ui->lineEdit->text());
+
 }
 
 void MainWindow::on_DebugBtn_6_clicked()
 {
-    QString filePath = "/mnt/hgfs/Share/zutai1.json";
-    if (m_jsonfile->ReadJsonFile(filePath))
+    QString filePath = "NodeConfigTable.json";
+    if (JsonFile::getInstance()->ReadJsonFile(filePath))
     {
 
     }
@@ -86,22 +100,37 @@ void MainWindow::on_DebugBtn_6_clicked()
     {
 
     }
+    DPLCServer::getInstance()->RefreshDPLCConnect();
 }
 
 void MainWindow::on_DebugBtn_7_clicked()
 {
+    QString filePath = "NodeConfigTable1.json";
+    if (JsonFile::getInstance()->ReadJsonFile(filePath))
+    {
 
+    }
+    else
+    {
+
+    }
+    DPLCServer::getInstance()->RefreshDPLCConnect();
 }
 
 void MainWindow::on_DebugBtn_8_clicked()
 {
-
+    //清空DPLC模块
+    // QList<Module> *p_modelist=Globals::getInstance()->GetStationList();
+    // p_modelist->clear();
+    QProcess process;
+    process.start("ps -o rss= -p " + QString::number(QCoreApplication::applicationPid()));
+    process.waitForFinished();
+    QString output = process.readAllStandardOutput();
+    qDebug() << "Memory usage (in KB):" << output.trimmed();
 }
 
 void MainWindow::Rcv_Msg()
 {
-    QByteArray msg=m_serialport->m_serialport->readAll();
-    QString str=msg.toHex();
-    ui->lineEdit_2->setText(ui->lineEdit_2->text() + str);
+
 }
 

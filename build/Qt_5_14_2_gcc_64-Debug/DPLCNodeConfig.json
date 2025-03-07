@@ -1,0 +1,3792 @@
+{
+  "setting": {
+    "resolution": 12
+  },
+  "mozuList": [
+    {
+      "name": "AM1",
+      "group": "",
+      "guid": "de7773f3fa8243e6",
+      "twoD": []
+    }
+  ],
+  "gongweiList": [
+    {
+      "name": "工位1",
+      "group": "",
+      "guid": null,
+      "twoD": [
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "793cb044b046519b",
+              "name": "工位1",
+              "type": 21,
+              "sibling": 0,
+              "x": -16.8065681,
+              "y": 2067.01343,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "上工位",
+                  "trigger": "",
+                  "guid": {
+                    "self": "987299c633e558d8",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5ee493378f8c6158",
+                    "other": "53f486786965c238",
+                    "sibling": 103
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "上料准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "3214313c68ec6158",
+                    "other": "c8c638e992f82d76",
+                    "sibling": 68
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 4,
+                  "name": "上料完成",
+                  "trigger": "",
+                  "guid": {
+                    "self": "17f916d4a4ac6158",
+                    "other": "aaaf5bb82155655d",
+                    "sibling": 129
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 5,
+                  "name": "下料准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "7dfea3b9c5c19498",
+                    "other": "adc6983212f5415d",
+                    "sibling": 130
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 6,
+                  "name": "已下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "b31d53bdd57e6158",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "下工位",
+                  "trigger": "",
+                  "guid": {
+                    "self": "51c473692f516158",
+                    "other": "786cdb3b6f4bb221",
+                    "sibling": 66
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "准备上料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5bc0e3bd3a04f158",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 3,
+                  "name": "上料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "97aac5c6687c6158",
+                    "other": "ad3882498f4e1dd4",
+                    "sibling": 69
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "加工",
+                  "trigger": "",
+                  "guid": {
+                    "self": "bf9328b7229da158",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 5,
+                  "name": "下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "69fdf957e91a6158",
+                    "other": "261a3e908229a5d4",
+                    "sibling": 70
+                  }
+                }
+              ],
+              "addition": [
+                {
+                  "BOM": ""
+                },
+                {
+                  "加工数据": ""
+                },
+                {
+                  "准备上料状态": ""
+                },
+                {
+                  "上料状态": ""
+                },
+                {
+                  "加工状态": ""
+                },
+                {
+                  "下料状态": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "f2b6e18e398e5fa1",
+              "name": "印刷位",
+              "type": 21,
+              "sibling": 1,
+              "x": 1091.61047,
+              "y": 2313.718,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "上工位",
+                  "trigger": "",
+                  "guid": {
+                    "self": "786cdb3b6f4bb221",
+                    "other": "51c473692f516158",
+                    "sibling": 66
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "e4e6339d7f99f221",
+                    "other": "19500f83d7d02c63",
+                    "sibling": 75
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "上料准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "47d9d0db36ac221",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 4,
+                  "name": "上料完成",
+                  "trigger": "",
+                  "guid": {
+                    "self": "b99898c2bb19e17",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 5,
+                  "name": "下料准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "a25105843c378a17",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 6,
+                  "name": "已下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "be859466db519e17",
+                    "other": "5bb7d099f7eeceb3",
+                    "sibling": 81
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "下工位",
+                  "trigger": "",
+                  "guid": {
+                    "self": "3c95d30695a19e17",
+                    "other": "c83c7cf5834e4947",
+                    "sibling": 104
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "准备上料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "dad7618dced11e17",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 3,
+                  "name": "上料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "d7005d6ecb848817",
+                    "other": "55cb5ddb633962d3",
+                    "sibling": 77
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "加工",
+                  "trigger": "",
+                  "guid": {
+                    "self": "fc169d2839bb5e17",
+                    "other": "2956c6e11abf6980",
+                    "sibling": 97
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 5,
+                  "name": "下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "76017d9ca9319e17",
+                    "other": "3172bfae4cb199e3",
+                    "sibling": 92
+                  }
+                }
+              ],
+              "addition": [
+                {
+                  "BOM": ""
+                },
+                {
+                  "加工数据": ""
+                },
+                {
+                  "准备上料状态": ""
+                },
+                {
+                  "上料状态": ""
+                },
+                {
+                  "加工状态": ""
+                },
+                {
+                  "下料状态": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "df5ad45969e1ba96",
+              "name": "DI.X0（启动）",
+              "type": 1,
+              "sibling": 2,
+              "x": -1069.89136,
+              "y": 2380.52368,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "83c8bd6b7bc5de96",
+                    "other": "475edc6c45ca51b5",
+                    "sibling": 82
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "b2875f04e884e1ca",
+              "name": "上料检测",
+              "type": 1,
+              "sibling": 3,
+              "x": -649.572449,
+              "y": 2003.16772,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "4af90a46cd0b8e30",
+                    "other": "524b1a7d7d53576",
+                    "sibling": 67
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "8556a961b5d32d76",
+              "name": "NO.X17",
+              "type": 10,
+              "sibling": 4,
+              "x": -379.3566,
+              "y": 2055.91016,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "524b1a7d7d53576",
+                    "other": "4af90a46cd0b8e30",
+                    "sibling": 67
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "c8c638e992f82d76",
+                    "other": "3214313c68ec6158",
+                    "sibling": 68
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "48678a74bbfb4f5a",
+              "name": "下料机械手松开",
+              "type": 1,
+              "sibling": 5,
+              "x": -655.8659,
+              "y": 1924.6731,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "3a4e623726cbe05a",
+                    "other": "ac90120f885fbd5d",
+                    "sibling": 128
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "9faa66dc6d85ed54",
+              "name": "SC21",
+              "type": 13,
+              "sibling": 6,
+              "x": 245.785553,
+              "y": 2149.98169,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "OPEN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "ad3882498f4e1dd4",
+                    "other": "97aac5c6687c6158",
+                    "sibling": 69
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "CLOSE",
+                  "trigger": "",
+                  "guid": {
+                    "self": "261a3e908229a5d4",
+                    "other": "69fdf957e91a6158",
+                    "sibling": 70
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "ACK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "55eda388944fa5d4",
+                    "other": "5a15212adcab70a",
+                    "sibling": 71
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "ba025f0ba379e6d4",
+                    "other": "16b6bb9cad03daf1",
+                    "sibling": 76
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "ALARM",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5c6398e1ea29a5d4",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "45e5244379935123",
+              "name": "SS22",
+              "type": 16,
+              "sibling": 7,
+              "x": -13.9604855,
+              "y": 1828.689,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "9c1363b94c066a8a",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5a15212adcab70a",
+                    "other": "55eda388944fa5d4",
+                    "sibling": 71
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "8803653a6d89bf2b",
+              "name": "移印Z回",
+              "type": 1,
+              "sibling": 8,
+              "x": 488.931458,
+              "y": 2119.8103,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "6adb25bf4fe9cd75",
+                    "other": "f296fabd5bd0e185",
+                    "sibling": 74
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "a6b04049d6cde54a",
+              "name": "移印Y回",
+              "type": 1,
+              "sibling": 9,
+              "x": 485.828217,
+              "y": 2182.13965,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "e49e9fb48e1a3a16",
+                    "other": "9f0e820b0ed02c63",
+                    "sibling": 73
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "83a015e2f69a27d4",
+              "name": "移印X回",
+              "type": 1,
+              "sibling": 10,
+              "x": 483.082031,
+              "y": 2248.69482,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "ac2871cade77efdb",
+                    "other": "1eef850f96502c63",
+                    "sibling": 72
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "9bc2022a31908df2",
+              "name": "AND31",
+              "type": 8,
+              "sibling": 11,
+              "x": 774.871155,
+              "y": 2180.69775,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN1",
+                  "trigger": "",
+                  "guid": {
+                    "self": "1eef850f96502c63",
+                    "other": "ac2871cade77efdb",
+                    "sibling": 72
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "IN2",
+                  "trigger": "",
+                  "guid": {
+                    "self": "9f0e820b0ed02c63",
+                    "other": "e49e9fb48e1a3a16",
+                    "sibling": 73
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "IN3",
+                  "trigger": "",
+                  "guid": {
+                    "self": "f296fabd5bd0e185",
+                    "other": "6adb25bf4fe9cd75",
+                    "sibling": 74
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 4,
+                  "name": "IN4",
+                  "trigger": "",
+                  "guid": {
+                    "self": "9b32695a113a6185",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 5,
+                  "name": "IN5",
+                  "trigger": "",
+                  "guid": {
+                    "self": "39b00c9e0a482185",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "19500f83d7d02c63",
+                    "other": "e4e6339d7f99f221",
+                    "sibling": 75
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "131dfefe1e313094",
+              "name": "DO32",
+              "type": 2,
+              "sibling": 12,
+              "x": 486.1458,
+              "y": 1817.79883,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "16b6bb9cad03daf1",
+                    "other": "ba025f0ba379e6d4",
+                    "sibling": 76
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "d4cf3b7f1aa20c81",
+              "name": "SC35",
+              "type": 13,
+              "sibling": 13,
+              "x": 1620.30176,
+              "y": 2461.33057,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "OPEN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "55cb5ddb633962d3",
+                    "other": "d7005d6ecb848817",
+                    "sibling": 77
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "CLOSE",
+                  "trigger": "",
+                  "guid": {
+                    "self": "da4734f4f49f2d3",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "ACK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "2d64fa34ab06f2d3",
+                    "other": "a2481c1815727760",
+                    "sibling": 83
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "bd9078aaf5ce62d3",
+                    "other": "80d5e2845eae9ac0",
+                    "sibling": 87
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "ALARM",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5a099d4fde185953",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "9854943f8f28fa56",
+              "name": "移印X出",
+              "type": 1,
+              "sibling": 14,
+              "x": 489.379974,
+              "y": 2040.273,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "9c91a6f4a6784754",
+                    "other": "e7badb683408eb3",
+                    "sibling": 78
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "472a85975c94d184",
+              "name": "移印Y出",
+              "type": 1,
+              "sibling": 15,
+              "x": 485.074341,
+              "y": 1967.96753,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "e7072c42fc948b5",
+                    "other": "89cfed504984ceb3",
+                    "sibling": 79
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "3ab63d81fe94c582",
+              "name": "移印Z出",
+              "type": 1,
+              "sibling": 16,
+              "x": 491.0465,
+              "y": 1901.91211,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "fc3021b9e917338a",
+                    "other": "625a35b8a7c548b2",
+                    "sibling": 80
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "e4d43d568389109d",
+              "name": "AND39",
+              "type": 8,
+              "sibling": 17,
+              "x": 792.3362,
+              "y": 1954.12927,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN1",
+                  "trigger": "",
+                  "guid": {
+                    "self": "e7badb683408eb3",
+                    "other": "9c91a6f4a6784754",
+                    "sibling": 78
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "IN2",
+                  "trigger": "",
+                  "guid": {
+                    "self": "89cfed504984ceb3",
+                    "other": "e7072c42fc948b5",
+                    "sibling": 79
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "IN3",
+                  "trigger": "",
+                  "guid": {
+                    "self": "625a35b8a7c548b2",
+                    "other": "fc3021b9e917338a",
+                    "sibling": 80
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 4,
+                  "name": "IN4",
+                  "trigger": "",
+                  "guid": {
+                    "self": "262a53528a7680e6",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 5,
+                  "name": "IN5",
+                  "trigger": "",
+                  "guid": {
+                    "self": "d5fb8c09cb0340e6",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5bb7d099f7eeceb3",
+                    "other": "be859466db519e17",
+                    "sibling": 81
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "6de9de0fc864999a",
+              "name": "AND45",
+              "type": 8,
+              "sibling": 18,
+              "x": -648.789246,
+              "y": 2202.625,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN1",
+                  "trigger": "",
+                  "guid": {
+                    "self": "475edc6c45ca51b5",
+                    "other": "83c8bd6b7bc5de96",
+                    "sibling": 82
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "IN2",
+                  "trigger": "",
+                  "guid": {
+                    "self": "a7bfdad88fb851b5",
+                    "other": "c82a19c807493cf1",
+                    "sibling": 126
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "IN3",
+                  "trigger": "",
+                  "guid": {
+                    "self": "1bf4090a28ffabd0",
+                    "other": "fca90f53c5c56969",
+                    "sibling": 122
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 4,
+                  "name": "IN4",
+                  "trigger": "",
+                  "guid": {
+                    "self": "2aeeb6bfdb1cc5d0",
+                    "other": "6aa6742a0e48c54f",
+                    "sibling": 123
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 5,
+                  "name": "IN5",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5829d97fbbaebbd0",
+                    "other": "2b3ec590a4d94f1e",
+                    "sibling": 124
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "7ad0b7604f5b6db5",
+                    "other": "643b4e9bbaf4fcda",
+                    "sibling": 102
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "8f11534b560d5aa2",
+              "name": "X回",
+              "type": 2,
+              "sibling": 19,
+              "x": 2157.284,
+              "y": 2508.2627,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "39960c4721b923b4",
+                    "other": "4f2321a515791ac0",
+                    "sibling": 88
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "af61c31e0fda0d73",
+              "name": "SS47",
+              "type": 16,
+              "sibling": 20,
+              "x": 1385.42236,
+              "y": 2394.09326,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "2dec95ec1981c788",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "a2481c1815727760",
+                    "other": "2d64fa34ab06f2d3",
+                    "sibling": 83
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "8355fa889388d9e5",
+              "name": "OK下料位",
+              "type": 21,
+              "sibling": 21,
+              "x": 3698.803,
+              "y": 3463.009,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "上工位",
+                  "trigger": "",
+                  "guid": {
+                    "self": "909dd7350ecbddad",
+                    "other": "d011852d040e1c4b",
+                    "sibling": 105
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "2d48f90dc5b7c99c",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "上料准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "26a51081d551d99c",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 4,
+                  "name": "上料完成",
+                  "trigger": "",
+                  "guid": {
+                    "self": "62fb79357143299c",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 5,
+                  "name": "下料准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "d923fef6814e1bbc",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 6,
+                  "name": "已下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "c0cc998ed0d6819c",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "下工位",
+                  "trigger": "",
+                  "guid": {
+                    "self": "4aead748c567659c",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "准备上料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "890f37b15c91899c",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 3,
+                  "name": "上料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "deb5d8e3bedc899c",
+                    "other": "c8b2f048ee06ec19",
+                    "sibling": 84
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "加工",
+                  "trigger": "",
+                  "guid": {
+                    "self": "dd82f9d97a56899c",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 5,
+                  "name": "下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "ab4095749e17369c",
+                    "other": "b61eef228acee12e",
+                    "sibling": 99
+                  }
+                }
+              ],
+              "addition": [
+                {
+                  "BOM": ""
+                },
+                {
+                  "加工数据": ""
+                },
+                {
+                  "准备上料状态": ""
+                },
+                {
+                  "上料状态": ""
+                },
+                {
+                  "加工状态": ""
+                },
+                {
+                  "下料状态": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "89af4d80df6b6156",
+              "name": "SC92",
+              "type": 13,
+              "sibling": 22,
+              "x": 4234.167,
+              "y": 3554.00684,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "OPEN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "c8b2f048ee06ec19",
+                    "other": "deb5d8e3bedc899c",
+                    "sibling": 84
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "CLOSE",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5ec310dfdcafdc19",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "ACK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "4894c145f845fc19",
+                    "other": "8e0a90bc993bd5de",
+                    "sibling": 85
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "f0115a6bfa92ec19",
+                    "other": "7b046497274385fd",
+                    "sibling": 86
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "ALARM",
+                  "trigger": "",
+                  "guid": {
+                    "self": "9adf2c4896eaec19",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "ee5ead2314cb8c99",
+              "name": "SS93",
+              "type": 16,
+              "sibling": 23,
+              "x": 3972.60645,
+              "y": 3526.764,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "c5c51d326293d5de",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "8e0a90bc993bd5de",
+                    "other": "4894c145f845fc19",
+                    "sibling": 85
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "85d8413c1b3f2cf",
+              "name": "DO95",
+              "type": 2,
+              "sibling": 25,
+              "x": 4506.984,
+              "y": 3565.01782,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "7b046497274385fd",
+                    "other": "f0115a6bfa92ec19",
+                    "sibling": 86
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "7b1a255418dd9bd7",
+              "name": "BRANCH98",
+              "type": 7,
+              "sibling": 26,
+              "x": 1851.23047,
+              "y": 2355.048,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "80d5e2845eae9ac0",
+                    "other": "bd9078aaf5ce62d3",
+                    "sibling": 87
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT1",
+                  "trigger": "",
+                  "guid": {
+                    "self": "4f2321a515791ac0",
+                    "other": "39960c4721b923b4",
+                    "sibling": 88
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "OUT2",
+                  "trigger": "",
+                  "guid": {
+                    "self": "3b7763bd866b4ac0",
+                    "other": "948ed129b4d4fbe3",
+                    "sibling": 89
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 3,
+                  "name": "OUT3",
+                  "trigger": "",
+                  "guid": {
+                    "self": "11b42fc4720ce5c5",
+                    "other": "4a5f29470f397fcb",
+                    "sibling": 90
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "OUT4",
+                  "trigger": "",
+                  "guid": {
+                    "self": "1c1174f0582305c5",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "OUT5",
+                  "trigger": "",
+                  "guid": {
+                    "self": "1c1174f0582305c5",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "ad4b4f06629c56e7",
+              "name": "X出",
+              "type": 2,
+              "sibling": 27,
+              "x": 1892.221,
+              "y": 2182.95142,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "fb58831e4cda86d3",
+                    "other": "d085bfb06c15fb7b",
+                    "sibling": 91
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "bf57c0f694a66d09",
+              "name": "Y回",
+              "type": 2,
+              "sibling": 28,
+              "x": 2144.47363,
+              "y": 2407.1792,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "948ed129b4d4fbe3",
+                    "other": "3b7763bd866b4ac0",
+                    "sibling": 89
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "3e6805175e5292e3",
+              "name": "Z回",
+              "type": 2,
+              "sibling": 29,
+              "x": 2152.25977,
+              "y": 2322.37817,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "4a5f29470f397fcb",
+                    "other": "11b42fc4720ce5c5",
+                    "sibling": 90
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "dec20d85dbafff85",
+              "name": "BRANCH103",
+              "type": 7,
+              "sibling": 30,
+              "x": 1633.12244,
+              "y": 2127.66455,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "157c24f48e047b7b",
+                    "other": "16a5dffeabc379e3",
+                    "sibling": 94
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT1",
+                  "trigger": "",
+                  "guid": {
+                    "self": "d085bfb06c15fb7b",
+                    "other": "fb58831e4cda86d3",
+                    "sibling": 91
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "OUT2",
+                  "trigger": "",
+                  "guid": {
+                    "self": "3164e12d0eedfb7b",
+                    "other": "6297a7cd439e5597",
+                    "sibling": 95
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 3,
+                  "name": "OUT3",
+                  "trigger": "",
+                  "guid": {
+                    "self": "efd82f1e311ac1ce",
+                    "other": "c641a970742ee21c",
+                    "sibling": 96
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "OUT4",
+                  "trigger": "",
+                  "guid": {
+                    "self": "8bfc453550a841ce",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "OUT5",
+                  "trigger": "",
+                  "guid": {
+                    "self": "8bfc453550a841ce",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "2135bae35f8de6a1",
+              "name": "SS104",
+              "type": 16,
+              "sibling": 31,
+              "x": 1099.9834,
+              "y": 2082.03271,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "85ca1fae572385aa",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "586b14d7ff5d1aaa",
+                    "other": "270c78b768661be3",
+                    "sibling": 93
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "85d3dc1ef4ead071",
+              "name": "下料单控开关",
+              "type": 13,
+              "sibling": 32,
+              "x": 1390.01062,
+              "y": 2127.32446,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "OPEN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "3172bfae4cb199e3",
+                    "other": "76017d9ca9319e17",
+                    "sibling": 92
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "CLOSE",
+                  "trigger": "",
+                  "guid": {
+                    "self": "8bdc1cd5232b79e3",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "ACK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "270c78b768661be3",
+                    "other": "586b14d7ff5d1aaa",
+                    "sibling": 93
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "16a5dffeabc379e3",
+                    "other": "157c24f48e047b7b",
+                    "sibling": 94
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "ALARM",
+                  "trigger": "",
+                  "guid": {
+                    "self": "3476881b968e82e3",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "6ffc44dee43f03e7",
+              "name": "Y出",
+              "type": 2,
+              "sibling": 33,
+              "x": 1893.88379,
+              "y": 2110.21582,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "6297a7cd439e5597",
+                    "other": "3164e12d0eedfb7b",
+                    "sibling": 95
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "3f00e449665772b0",
+              "name": "Z出",
+              "type": 2,
+              "sibling": 34,
+              "x": 1891.968,
+              "y": 2037.71216,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "c641a970742ee21c",
+                    "other": "efd82f1e311ac1ce",
+                    "sibling": 96
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "8614b89fff82e885",
+              "name": "连接印刷机器人",
+              "type": 15,
+              "sibling": 35,
+              "x": 1382.41528,
+              "y": 2280.41431,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "2956c6e11abf6980",
+                    "other": "fc169d2839bb5e17",
+                    "sibling": 97
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "PARAM1",
+                  "trigger": "",
+                  "guid": {
+                    "self": "a3844eefa732ae00",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "PARAM2",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5158763410f59e00",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 4,
+                  "name": "PARAM3",
+                  "trigger": "",
+                  "guid": {
+                    "self": "fbd935c09ed66000",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 5,
+                  "name": "PARAM4",
+                  "trigger": "",
+                  "guid": {
+                    "self": "78d5784008d35700",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 6,
+                  "name": "ACK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "8b7ff80407835900",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "29f80d1b6f4ae100",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "PARAM1",
+                  "trigger": "",
+                  "guid": {
+                    "self": "653b08a8a4ed4d00",
+                    "other": "e2c7e90724ad80f6",
+                    "sibling": 98
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 3,
+                  "name": "PARAM2",
+                  "trigger": "",
+                  "guid": {
+                    "self": "8ae0b9a4fc6b5900",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "PARAM3",
+                  "trigger": "",
+                  "guid": {
+                    "self": "3c15a385dd551900",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 5,
+                  "name": "PARAM4",
+                  "trigger": "",
+                  "guid": {
+                    "self": "7e4fbaad17bd1900",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 6,
+                  "name": "ALARM",
+                  "trigger": "",
+                  "guid": {
+                    "self": "c5db0b56006c5900",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "45f2c395f2c321e9",
+              "name": "参数变量",
+              "type": 3,
+              "sibling": 36,
+              "x": 1631.175,
+              "y": 2327.808,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "e2c7e90724ad80f6",
+                    "other": "653b08a8a4ed4d00",
+                    "sibling": 98
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "e3cbb3bb7ad180f6",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "d99a80dbbfc20882",
+              "name": "SC112",
+              "type": 13,
+              "sibling": 37,
+              "x": 3975.47046,
+              "y": 3418.78662,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "OPEN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "b61eef228acee12e",
+                    "other": "ab4095749e17369c",
+                    "sibling": 99
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "CLOSE",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5eb159026b9eeb2e",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "ACK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5dc05cf841edd12e",
+                    "other": "5a3c681fc28ca307",
+                    "sibling": 101
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "64f57e577530012e",
+                    "other": "8ee86e79024a2674",
+                    "sibling": 100
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "ALARM",
+                  "trigger": "",
+                  "guid": {
+                    "self": "175588a713677d2e",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "6d17e56ac61e1724",
+              "name": "DO113",
+              "type": 2,
+              "sibling": 38,
+              "x": 4231.603,
+              "y": 3445.49072,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "8ee86e79024a2674",
+                    "other": "64f57e577530012e",
+                    "sibling": 100
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "3821d9a1def14fdd",
+              "name": "SS114",
+              "type": 16,
+              "sibling": 39,
+              "x": 3711.07422,
+              "y": 3124.14063,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "22ff9b29735b2307",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5a3c681fc28ca307",
+                    "other": "5dc05cf841edd12e",
+                    "sibling": 101
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "a6d419be7a5731a5",
+              "name": "AND124",
+              "type": 8,
+              "sibling": 40,
+              "x": -366.7561,
+              "y": 2173.84448,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN1",
+                  "trigger": "",
+                  "guid": {
+                    "self": "643b4e9bbaf4fcda",
+                    "other": "7ad0b7604f5b6db5",
+                    "sibling": 102
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "IN2",
+                  "trigger": "",
+                  "guid": {
+                    "self": "697b60082667fcda",
+                    "other": "993e32da46749f8f",
+                    "sibling": 125
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "IN3",
+                  "trigger": "",
+                  "guid": {
+                    "self": "92f1190cd30d464a",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 4,
+                  "name": "IN4",
+                  "trigger": "",
+                  "guid": {
+                    "self": "d8b67f89e536814a",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 5,
+                  "name": "IN5",
+                  "trigger": "",
+                  "guid": {
+                    "self": "ce502701050464a",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "53f486786965c238",
+                    "other": "5ee493378f8c6158",
+                    "sibling": 103
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "598e7814dc2afa33",
+              "name": "检测工位",
+              "type": 24,
+              "sibling": 42,
+              "x": 2415.49365,
+              "y": 2867.3457,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "上工位",
+                  "trigger": "",
+                  "guid": {
+                    "self": "c83c7cf5834e4947",
+                    "other": "3c95d30695a19e17",
+                    "sibling": 104
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "EN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "20e53df4d5642947",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "上料准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "ed35629c1ace1c4b",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 4,
+                  "name": "上料完成",
+                  "trigger": "",
+                  "guid": {
+                    "self": "49f7cf9d618e1c4b",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 5,
+                  "name": "下料准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "ffac0336e18a1c4b",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 6,
+                  "name": "已下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "3e203279b3e91c4b",
+                    "other": "7033e94968cecd2a",
+                    "sibling": 117
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 7,
+                  "name": "OK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "1b6d028cc7f95c4b",
+                    "other": "43aa9e7b77aafb9d",
+                    "sibling": 106
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 8,
+                  "name": "NG",
+                  "trigger": "",
+                  "guid": {
+                    "self": "b953191da77e5c4b",
+                    "other": "f82437e6a8988979",
+                    "sibling": 110
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 9,
+                  "name": "OK已下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "d53184909e0e1c4b",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 10,
+                  "name": "NG已下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "370073f319bc1c4b",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "下工位OK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "d011852d040e1c4b",
+                    "other": "909dd7350ecbddad",
+                    "sibling": 105
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "下工位NG",
+                  "trigger": "",
+                  "guid": {
+                    "self": "82c01c178142d44b",
+                    "other": "cd24a997fa12ebaa",
+                    "sibling": 118
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 3,
+                  "name": "准备上料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "14a58c3871a8884b",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "上料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "eadb80126c661c4b",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 5,
+                  "name": "检测",
+                  "trigger": "",
+                  "guid": {
+                    "self": "e5706911d1ff1c4b",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 6,
+                  "name": "OK下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "251b1c483e6cd60b",
+                    "other": "b971b3143908a8e6",
+                    "sibling": 111
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 7,
+                  "name": "NG下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "2f87794c9e0e1c4b",
+                    "other": "b799fd856a32de0e",
+                    "sibling": 113
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "67480c6ed28f5ade",
+              "name": "OK产品",
+              "type": 10,
+              "sibling": 43,
+              "x": 2120.754,
+              "y": 2730.34937,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "d8111db918641e9d",
+                    "other": "15773b3217fb44de",
+                    "sibling": 107
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "43aa9e7b77aafb9d",
+                    "other": "1b6d028cc7f95c4b",
+                    "sibling": 106
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "6131e2c37839d6ba",
+              "name": "BRANCH71",
+              "type": 7,
+              "sibling": 44,
+              "x": 1856.12756,
+              "y": 2526.802,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "8ff48a1cf99c54de",
+                    "other": "76fdf426d825df16",
+                    "sibling": 108
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT1",
+                  "trigger": "",
+                  "guid": {
+                    "self": "15773b3217fb44de",
+                    "other": "d8111db918641e9d",
+                    "sibling": 107
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "OUT2",
+                  "trigger": "",
+                  "guid": {
+                    "self": "8a4bb769571454de",
+                    "other": "1c61b974c83dbb79",
+                    "sibling": 109
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 3,
+                  "name": "OUT3",
+                  "trigger": "",
+                  "guid": {
+                    "self": "59a9632e4f054de",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "OUT4",
+                  "trigger": "",
+                  "guid": {
+                    "self": "d6a239e53c856bde",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "OUT5",
+                  "trigger": "",
+                  "guid": {
+                    "self": "d6a239e53c856bde",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "593950ee4eeb45ce",
+              "name": "产品检测",
+              "type": 1,
+              "sibling": 45,
+              "x": 1619.695,
+              "y": 2557.04517,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "76fdf426d825df16",
+                    "other": "8ff48a1cf99c54de",
+                    "sibling": 108
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "c7b33535e31de3c4",
+              "name": "NG产品",
+              "type": 10,
+              "sibling": 46,
+              "x": 2144.89771,
+              "y": 2591.719,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "1c61b974c83dbb79",
+                    "other": "8a4bb769571454de",
+                    "sibling": 109
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "f82437e6a8988979",
+                    "other": "b953191da77e5c4b",
+                    "sibling": 110
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "361603ff1fe6b8ae",
+              "name": "SC76",
+              "type": 13,
+              "sibling": 47,
+              "x": 2915.069,
+              "y": 2853.69482,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "OPEN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "b971b3143908a8e6",
+                    "other": "251b1c483e6cd60b",
+                    "sibling": 111
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "CLOSE",
+                  "trigger": "",
+                  "guid": {
+                    "self": "90474ba109e7b8e6",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "ACK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "335ac8201818a8e6",
+                    "other": "bb43543258ea3cae",
+                    "sibling": 127
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "1fbc043b76d9a8e6",
+                    "other": "29c869fc6a4e7610",
+                    "sibling": 112
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "ALARM",
+                  "trigger": "",
+                  "guid": {
+                    "self": "74c52451bf9bf8e6",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "a74f6d8063edd8ca",
+              "name": "OK下料",
+              "type": 2,
+              "sibling": 48,
+              "x": 3181.57,
+              "y": 2741.4812,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "29c869fc6a4e7610",
+                    "other": "1fbc043b76d9a8e6",
+                    "sibling": 112
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "a3221e471fac2624",
+              "name": "SC78",
+              "type": 13,
+              "sibling": 49,
+              "x": 2658.12915,
+              "y": 2668.45117,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "OPEN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "b799fd856a32de0e",
+                    "other": "2f87794c9e0e1c4b",
+                    "sibling": 113
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "CLOSE",
+                  "trigger": "",
+                  "guid": {
+                    "self": "da9853960c90460e",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "ACK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "2210d26da66cc60e",
+                    "other": "b220338ce0a081ce",
+                    "sibling": 115
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "963eafef9bb46e0e",
+                    "other": "52a8469a270ab1ac",
+                    "sibling": 114
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "ALARM",
+                  "trigger": "",
+                  "guid": {
+                    "self": "f08fbb71f77e660e",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "e324427b81b45d15",
+              "name": "NG下料",
+              "type": 2,
+              "sibling": 50,
+              "x": 3187.95581,
+              "y": 2661.77417,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "52a8469a270ab1ac",
+                    "other": "963eafef9bb46e0e",
+                    "sibling": 114
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "ce2a271c3e5f0379",
+              "name": "SS81",
+              "type": 16,
+              "sibling": 51,
+              "x": 2412.705,
+              "y": 2653.70825,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "c467eb3c87f481ce",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "b220338ce0a081ce",
+                    "other": "2210d26da66cc60e",
+                    "sibling": 115
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "6c3319c7aa374062",
+              "name": "流水线检测",
+              "type": 1,
+              "sibling": 52,
+              "x": 1834.94434,
+              "y": 2658.03271,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "365fe6bc202590fd",
+                    "other": "4fb8c4ee63b28d2a",
+                    "sibling": 116
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "ae21aa17b87518e5",
+              "name": "NOT83",
+              "type": 10,
+              "sibling": 53,
+              "x": 2123.239,
+              "y": 2833.07446,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "4fb8c4ee63b28d2a",
+                    "other": "365fe6bc202590fd",
+                    "sibling": 116
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "7033e94968cecd2a",
+                    "other": "3e203279b3e91c4b",
+                    "sibling": 117
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "aa7723ceae639699",
+              "name": "NG下料位",
+              "type": 21,
+              "sibling": 54,
+              "x": 3173.51123,
+              "y": 3042.59717,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "上工位",
+                  "trigger": "",
+                  "guid": {
+                    "self": "cd24a997fa12ebaa",
+                    "other": "82c01c178142d44b",
+                    "sibling": 118
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "c8f998e46edfabaa",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "上料准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "ebed4beee452ebaa",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 4,
+                  "name": "上料完成",
+                  "trigger": "",
+                  "guid": {
+                    "self": "89f8c83b3792ebaa",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 5,
+                  "name": "下料准备好",
+                  "trigger": "",
+                  "guid": {
+                    "self": "aa72221f4e20abaa",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 6,
+                  "name": "已下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "5bcf1fb51a72ebaa",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "下工位",
+                  "trigger": "",
+                  "guid": {
+                    "self": "7da31322932c746a",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "准备上料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "af0dff7068d60baa",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 3,
+                  "name": "上料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "236f4b97e3bcebaa",
+                    "other": "848ca6c9f245f313",
+                    "sibling": 119
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "加工",
+                  "trigger": "",
+                  "guid": {
+                    "self": "7f3e1a8b5f49d7e6",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 5,
+                  "name": "下料",
+                  "trigger": "",
+                  "guid": {
+                    "self": "4c47c964c8edffe6",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": [
+                {
+                  "BOM": ""
+                },
+                {
+                  "加工数据": ""
+                },
+                {
+                  "准备上料状态": ""
+                },
+                {
+                  "上料状态": ""
+                },
+                {
+                  "加工状态": ""
+                },
+                {
+                  "下料状态": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "d778cdd0d6f7cc65",
+              "name": "SC86",
+              "type": 13,
+              "sibling": 56,
+              "x": 3454.33862,
+              "y": 3132.50024,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "OPEN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "848ca6c9f245f313",
+                    "other": "236f4b97e3bcebaa",
+                    "sibling": 119
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "name": "CLOSE",
+                  "trigger": "",
+                  "guid": {
+                    "self": "124e7e3bb64d1313",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "name": "ACK",
+                  "trigger": "",
+                  "guid": {
+                    "self": "dd96ef586c081313",
+                    "other": "953d3ed1b8fad01",
+                    "sibling": 121
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "8ac57d3122b0313",
+                    "other": "a0942a88e9e89f11",
+                    "sibling": 120
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "ALARM",
+                  "trigger": "",
+                  "guid": {
+                    "self": "8a6675ece7a65313",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "dc875d0db01516e",
+              "name": "皮带机",
+              "type": 2,
+              "sibling": 57,
+              "x": 3705.48486,
+              "y": 3215.949,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "a0942a88e9e89f11",
+                    "other": "8ac57d3122b0313",
+                    "sibling": 120
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "a52efea04a0ae499",
+              "name": "SS89",
+              "type": 16,
+              "sibling": 58,
+              "x": 3175.467,
+              "y": 2819.91821,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "a8691a27ae57cd01",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "953d3ed1b8fad01",
+                    "other": "dd96ef586c081313",
+                    "sibling": 121
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "e6cc80e6959a185b",
+              "name": "前门",
+              "type": 1,
+              "sibling": 59,
+              "x": -1068.66321,
+              "y": 2230.39917,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "fca90f53c5c56969",
+                    "other": "1bf4090a28ffabd0",
+                    "sibling": 122
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "c56cdda0ca3e3d3f",
+              "name": "后门",
+              "type": 1,
+              "sibling": 60,
+              "x": -1065.35413,
+              "y": 2161.78027,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "6aa6742a0e48c54f",
+                    "other": "2aeeb6bfdb1cc5d0",
+                    "sibling": 123
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "fb042e4e90469839",
+              "name": "左门",
+              "type": 1,
+              "sibling": 61,
+              "x": -1066.85352,
+              "y": 2094.47119,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "2b3ec590a4d94f1e",
+                    "other": "5829d97fbbaebbd0",
+                    "sibling": 124
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "3ae63c33ba5940d7",
+              "name": "右门",
+              "type": 1,
+              "sibling": 62,
+              "x": -645.283,
+              "y": 2088.38477,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "993e32da46749f8f",
+                    "other": "697b60082667fcda",
+                    "sibling": 125
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "10347f9c86a80ba1",
+              "name": "气压检测",
+              "type": 1,
+              "sibling": 63,
+              "x": -1072.01563,
+              "y": 2307.6748,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "c82a19c807493cf1",
+                    "other": "a7bfdad88fb851b5",
+                    "sibling": 126
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "12b001921347ea06",
+              "name": "SS68",
+              "type": 16,
+              "sibling": 64,
+              "x": 2671.34375,
+              "y": 2765.9375,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "51797986b0228812",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT",
+                  "trigger": "",
+                  "guid": {
+                    "self": "bb43543258ea3cae",
+                    "other": "335ac8201818a8e6",
+                    "sibling": 127
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "c4e82a0af185604c",
+              "name": "BRANCH72",
+              "type": 7,
+              "sibling": 65,
+              "x": -381.768,
+              "y": 1942.79126,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindVar": "None",
+              "bindAddr": "",
+              "varLen": "1",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "name": "IN",
+                  "trigger": "",
+                  "guid": {
+                    "self": "ac90120f885fbd5d",
+                    "other": "3a4e623726cbe05a",
+                    "sibling": 128
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "name": "OUT1",
+                  "trigger": "",
+                  "guid": {
+                    "self": "aaaf5bb82155655d",
+                    "other": "17f916d4a4ac6158",
+                    "sibling": 129
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "name": "OUT2",
+                  "trigger": "",
+                  "guid": {
+                    "self": "adc6983212f5415d",
+                    "other": "7dfea3b9c5c19498",
+                    "sibling": 130
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 3,
+                  "name": "OUT3",
+                  "trigger": "",
+                  "guid": {
+                    "self": "653d2559a6eed5d",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "OUT4",
+                  "trigger": "",
+                  "guid": {
+                    "self": "e60da2a6165fbd5d",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 4,
+                  "name": "OUT5",
+                  "trigger": "",
+                  "guid": {
+                    "self": "e60da2a6165fbd5d",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "工位2",
+      "group": "",
+      "guid": null,
+      "twoD": []
+    }
+  ]
+}

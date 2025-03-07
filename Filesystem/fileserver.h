@@ -9,24 +9,21 @@
 #include "filesocket.h"
 #include <QTime>
 
-#define UPLOAD_FILE          0x0F01      //上传文件命令
-#define SYN_FILE_LIST        0x0F02      //同步文件列表命令
-#define DOWNLOAD_FILE        0x0F03      //下载文件命令
-
-
-
-class FileServer2 : public QTcpServer
+class FileServer : public QTcpServer
 {
 public:
-    FileServer2();
-    ~FileServer2();
-    static FileServer2 &getInstance();
-    void incomingConnection(qintptr socketDescriptor);
-    void onDisconnected();
-    void onTimeout();
-private:
-    QList<FileSocket*> m_tcpSocketList;
+    static FileServer* getInstance();
 
+    void incomingConnection(qintptr socketDescriptor);
+private:
+    //私有化构造函数和析构函数
+    FileServer(){}
+    ~FileServer(){}
+    FileServer(const FileServer&) = delete;
+    FileServer& operator=(const FileServer&) = delete;
+    //静态成员变量保存唯一实例
+    static FileServer* m_instance;
+    QList<FileSocket*> m_tcpSocketList;
 };
 
 

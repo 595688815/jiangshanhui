@@ -11,9 +11,9 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QTextEdit>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -30,9 +30,7 @@ public:
     QPushButton *DebugBtn_6;
     QPushButton *DebugBtn_7;
     QPushButton *DebugBtn_8;
-    QLineEdit *lineEdit;
-    QLineEdit *lineEdit_2;
-    QLineEdit *lineEdit_3;
+    QTextEdit *textEdit;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -65,18 +63,9 @@ public:
         DebugBtn_8 = new QPushButton(centralwidget);
         DebugBtn_8->setObjectName("DebugBtn_8");
         DebugBtn_8->setGeometry(QRect(70, 410, 89, 25));
-        lineEdit = new QLineEdit(centralwidget);
-        lineEdit->setObjectName("lineEdit");
-        lineEdit->setGeometry(QRect(210, 10, 491, 151));
-        lineEdit->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
-        lineEdit_2 = new QLineEdit(centralwidget);
-        lineEdit_2->setObjectName("lineEdit_2");
-        lineEdit_2->setGeometry(QRect(210, 180, 491, 161));
-        lineEdit_2->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
-        lineEdit_3 = new QLineEdit(centralwidget);
-        lineEdit_3->setObjectName("lineEdit_3");
-        lineEdit_3->setGeometry(QRect(210, 360, 491, 151));
-        lineEdit_3->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
+        textEdit = new QTextEdit(centralwidget);
+        textEdit->setObjectName("textEdit");
+        textEdit->setGeometry(QRect(210, 50, 541, 511));
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);

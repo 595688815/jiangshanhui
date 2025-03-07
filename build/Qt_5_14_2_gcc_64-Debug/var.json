@@ -1,0 +1,172 @@
+{
+    "var": [
+        {
+            "addr": 0,
+            "length": 1,
+            "name": "ALARM",
+            "register": 14568,
+            "type": 1
+        },
+        {
+            "addr": 1,
+            "length": 1,
+            "name": "WARNING",
+            "register": 14568,
+            "type": 1
+        },
+        {
+            "addr": 2,
+            "length": 1,
+            "name": "LOGIN",
+            "register": 14568,
+            "type": 1
+        },
+        {
+            "addr": 3,
+            "length": 1,
+            "name": "SIMRUN",
+            "register": 14568,
+            "type": 1
+        },
+        {
+            "addr": 4,
+            "length": 1,
+            "name": "DEBUGRUN",
+            "register": 14568,
+            "type": 1
+        },
+        {
+            "addr": 5,
+            "length": 1,
+            "name": "AUTORUN",
+            "register": 14568,
+            "type": 1
+        },
+        {
+            "addr": 6,
+            "length": 1,
+            "name": "RESET",
+            "register": 14568,
+            "type": 1
+        },
+        {
+            "addr": 7,
+            "length": 1,
+            "name": "VCC",
+            "register": 14568,
+            "type": 1
+        },
+        {
+            "addr": 8,
+            "length": 1,
+            "name": "ALARM",
+            "register": 14568,
+            "type": 2
+        },
+        {
+            "addr": 9,
+            "length": 1,
+            "name": "WARNING",
+            "register": 14568,
+            "type": 2
+        },
+        {
+            "addr": 10,
+            "length": 1,
+            "name": "BEEP",
+            "register": 14568,
+            "type": 2
+        },
+        {
+            "addr": 11,
+            "length": 1,
+            "name": "RUNNING",
+            "register": 14568,
+            "type": 2
+        },
+        {
+            "addr": 12,
+            "length": 1,
+            "name": "NETWORK",
+            "register": 14568,
+            "type": 2
+        },
+        {
+            "addr": 13,
+            "length": 1,
+            "name": "ERROR",
+            "register": 14568,
+            "type": 2
+        },
+        {
+            "addr": 4,
+            "length": 2,
+            "name": "YEAR",
+            "register": 14568,
+            "type": 3
+        },
+        {
+            "addr": 5,
+            "length": 2,
+            "name": "MONTH",
+            "register": 14568,
+            "type": 3
+        },
+        {
+            "addr": 6,
+            "length": 2,
+            "name": "DAY",
+            "register": 14568,
+            "type": 3
+        },
+        {
+            "addr": 7,
+            "length": 2,
+            "name": "HOUR",
+            "register": 14568,
+            "type": 3
+        },
+        {
+            "addr": 8,
+            "length": 2,
+            "name": "MINUTE",
+            "register": 14568,
+            "type": 3
+        },
+        {
+            "addr": 9,
+            "length": 2,
+            "name": "SECOND",
+            "register": 14568,
+            "type": 3
+        },
+        {
+            "addr": 1,
+            "length": 4,
+            "name": "RAND",
+            "register": 14568,
+            "type": 5
+        },
+        {
+            "addr": 20,
+            "length": 8,
+            "name": "USERID",
+            "register": 14568,
+            "type": 14
+        },
+        {
+            "addr": 28,
+            "length": 32,
+            "name": "INFO",
+            "register": 14568,
+            "type": 38
+        },
+        {
+            "addr": 60,
+            "length": 10,
+            "name": "VER",
+            "register": 14568,
+            "type": 16
+        }
+    ]
+}

@@ -19,7 +19,7 @@ public:
     bool InsertData(QString tablename,QStringList tabledata);
     bool DeleteData(QString tablename,QString num);
     bool DeleteTable(QString tablename);
-    void InitFromMysql();
+    void InitMysql();
     QSqlDatabase m_db;
 private:
     static SystemSql *m_sql;

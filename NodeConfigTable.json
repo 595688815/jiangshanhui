@@ -1,0 +1,1383 @@
+
+{
+    "setting" : {
+        "resolution" : 11
+    },
+    "mozuList" : [
+        {
+            "name" : "AM001",
+            "group" : null,
+            "twoD"  : [
+                {
+                    "node" : {
+                        "DI_473139362267e290" : {
+                            "guid" : "473139362267e290",
+                            "name" : "DI5",
+                            "type" : 1,
+                            "sibling" : 0,
+                            "x"       : -160.1014,
+                            "y"       : 30.03619,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "7ea924ac669c3bc6",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "1770e600fbafaf06",
+                                        "other" : "1a7fd3ebd010a6b8",
+                                        "sibling" : 8
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "bef5db3c0796cf06",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "b2f6c2a9950c306",
+                                        "other" : "6445968665bc536",
+                                        "sibling" : 6
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "N_e90e8fe9e65bec8c" : {
+                            "guid" : "e90e8fe9e65bec8c",
+                            "name" : "N5",
+                            "type" : 19,
+                            "sibling" : 1,
+                            "x"       : 210.9131,
+                            "y"       : 124.8188,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "b56e703ab5c6f0bf",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "442f0fbdd1ee6836",
+                                        "other" : "f122bf65960f2770",
+                                        "sibling" : 10
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "6445968665bc536",
+                                        "other" : "b2f6c2a9950c306",
+                                        "sibling" : 7
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "7b673e70381cc536",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "6df1cb238a340536",
+                                        "other" : "dde9836e16096370",
+                                        "sibling" : 8
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "DO_9bcf2ba259d00d7a" : {
+                            "guid" : "9bcf2ba259d00d7a",
+                            "name" : "DO8",
+                            "type" : 2,
+                            "sibling" : 2,
+                            "x"       : 550.3536,
+                            "y"       : -146.0874,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "36c699b2f6a22b70",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "8f390545a0973b70",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "dde9836e16096370",
+                                        "other" : "6df1cb238a340536",
+                                        "sibling" : 8
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "b2fa12d345a9db70",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "F_f92da6e60be40df9" : {
+                            "guid" : "f92da6e60be40df9",
+                            "name" : "F9",
+                            "type" : 20,
+                            "sibling" : 3,
+                            "x"       : -440.7476,
+                            "y"       : -71.89386,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "c5eabbc502abe6b8",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "44ba47b3fa49e6b8",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "1911d6e0b970e6b8",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "614ab8a7e16abab8",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "1a7fd3ebd010a6b8",
+                                        "other" : "1770e600fbafaf06",
+                                        "sibling" : 9
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "DO_d13733efb925023e" : {
+                            "guid" : "d13733efb925023e",
+                            "name" : "DO10",
+                            "type" : 2,
+                            "sibling" : 5,
+                            "x"       : -439.5461,
+                            "y"       : 245.5478,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "1bcee1af184df59",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "be6156deb6ded759",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "dd3454021bf21f59",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "fd31de9052bc1f59",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "M_25f3194134506f8" : {
+                            "guid" : "25f3194134506f8",
+                            "name" : "M11",
+                            "type" : 3,
+                            "sibling" : 5,
+                            "x"       : -126.682,
+                            "y"       : 285.1918,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "c29a421b1c70e570",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "efb625ddd8184b70",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "cf2646c1d58f2b70",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "3726a6839e78bb70",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "f122bf65960f2770",
+                                        "other" : "442f0fbdd1ee6836",
+                                        "sibling" : 10
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "DC_caa1f8ce77a4f108" : {
+                            "guid" : "caa1f8ce77a4f108",
+                            "name" : "DC30",
+                            "type" : 14,
+                            "sibling" : 10,
+                            "x"       : 4.028687,
+                            "y"       : -248.3023,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "f221eda41efac98b",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "d5979dfc93eb498b",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "9a8dab8c1d9ac98b",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "38bd39158194598b",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "ff3205094ec5018b",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "b366d266ff6ac98b",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "VCC_568b465d51e6833a" : {
+                            "guid" : "568b465d51e6833a",
+                            "name" : "VCC19",
+                            "type" : 11,
+                            "sibling" : 11,
+                            "x"       : -807.1035,
+                            "y"       : -5.542107,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "e000924fae01e8ab",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "RESET_c53984edd1d70fb9" : {
+                            "guid" : "c53984edd1d70fb9",
+                            "name" : "RESET20",
+                            "type" : 12,
+                            "sibling" : 12,
+                            "x"       : -849.2692,
+                            "y"       : 337.6964,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "806c9267e836d51e",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "DI_caacd154ee50b2cb" : {
+                            "guid" : "caacd154ee50b2cb",
+                            "name" : "DI21",
+                            "type" : 1,
+                            "sibling" : 13,
+                            "x"       : -592.0067,
+                            "y"       : 549.2465,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "3a722dbeff7a17b7",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "c24ac8bab0f3beb7",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "316af60cda918bb7",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "55ca1e66249b4bb7",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name" : "aaa",
+            "group" : "",
+            "twoD"  : [
+                {
+                    "node" : {
+                        "SC_bbd3d37f403ffae3" : {
+                            "guid" : "bbd3d37f403ffae3",
+                            "name" : "SC7",
+                            "type" : 13,
+                            "sibling" : 5,
+                            "x"       : -184.984,
+                            "y"       : 49.8501,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "affd67a2f1f9e720",
+                                        "other" : "7ed051cb5f428a",
+                                        "sibling" : 8
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "ce81fd8a39f2c720",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "c221904493b7d361",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "3080a5ffcb5ef361",
+                                        "other" : "e049dcc324572888",
+                                        "sibling" : 3
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "6c74f79fe583d361",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "ACTCTRL_dc89043a048f7888" : {
+                            "guid" : "dc89043a048f7888",
+                            "name" : "ACTCTRL8",
+                            "type" : 6,
+                            "sibling" : 1,
+                            "x"       : 134.59,
+                            "y"       : 5.802185,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "6d4753f12e70e888",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "e049dcc324572888",
+                                        "other" : "3080a5ffcb5ef361",
+                                        "sibling" : 3
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "8754d5fbe8582888",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 4,
+                                    "guid" : {
+                                        "self" : "3728eaf9fb9fe888",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "e03b32b7cc126888",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "89f3db968608e888",
+                                        "other" : "316fa194c05c5a24",
+                                        "sibling" : 4
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "3f1f803685f0c88",
+                                        "other" : "9caff61dac585a24",
+                                        "sibling" : 5
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "F_ecfa11bd65c36db3" : {
+                            "guid" : "ecfa11bd65c36db3",
+                            "name" : "F8",
+                            "type" : 20,
+                            "sibling" : 2,
+                            "x"       : 424.2842,
+                            "y"       : 81.64005,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "ee7cc7c3ac6dea24",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "316fa194c05c5a24",
+                                        "other" : "89f3db968608e888",
+                                        "sibling" : 4
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "9caff61dac585a24",
+                                        "other" : "3f1f803685f0c88",
+                                        "sibling" : 5
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "b41807cebcac5a24",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "7ac302ddac887224",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "AI_2368f5a5c94f428a" : {
+                            "guid" : "2368f5a5c94f428a",
+                            "name" : "AI34",
+                            "type" : 4,
+                            "sibling" : 6,
+                            "x"       : -475.0035,
+                            "y"       : 321.1917,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "f91021ca1dccc68a",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "41e17ab110630a8a",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "e20318dd2a4f428a",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "7ed051cb5f428a",
+                                        "other" : "affd67a2f1f9e720",
+                                        "sibling" : 7
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name" : "test1",
+            "group" : "",
+            "twoD"  : [
+                {
+                    "node" : {
+                        "DI_b49951b85e43d5ad" : {
+                            "guid" : "b49951b85e43d5ad",
+                            "name" : "DI22",
+                            "type" : 1,
+                            "sibling" : 0,
+                            "x"       : -763.8085,
+                            "y"       : 509.432,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "reserved_1",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "37add7a715aea48",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "52c680511da5ea48",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "9f74ddc0ddd6ea48",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "22cf457600f54a48",
+                                        "other" : "4a7a5b73c4192a48",
+                                        "sibling" : 3
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "CC_2b4fd76e158a1189" : {
+                            "guid" : "2b4fd76e158a1189",
+                            "name" : "CC24",
+                            "type" : 18,
+                            "sibling" : 1,
+                            "x"       : -440.6497,
+                            "y"       : 472.2351,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "4306499c85276a48",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "821a4698d889ea48",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "4a7a5b73c4192a48",
+                                        "other" : "22cf457600f54a48",
+                                        "sibling" : 3
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 4,
+                                    "guid" : {
+                                        "self" : "4e262521265d0c48",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "ff40bbef51ceea48",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "c1865bebb8bca48",
+                                        "other" : "a1687d917b717e4f",
+                                        "sibling" : 6
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "8dadada832e06648",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 4,
+                                    "guid" : {
+                                        "self" : "b32ede37cc36ea48",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "DS_7578c71295cc2df7" : {
+                            "guid" : "7578c71295cc2df7",
+                            "name" : "DS25",
+                            "type" : 17,
+                            "sibling" : 3,
+                            "x"       : -598.6354,
+                            "y"       : 101.6368,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "482b5678f444da7a",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "d98a485bac71da7a",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "14cd5fdc54f2da7a",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "ea58f17078e3aa7a",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "4ec5edec4ff8a27a",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "DO_44495c03897c6591" : {
+                            "guid" : "44495c03897c6591",
+                            "name" : "DO33",
+                            "type" : 2,
+                            "sibling" : 4,
+                            "x"       : -151.812,
+                            "y"       : 493.8146,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "4f9f16c2ec26364f",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "56b7195b4c2dfe4f",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "a1687d917b717e4f",
+                                        "other" : "c1865bebb8bca48",
+                                        "sibling" : 6
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "a6353c3b380e7e4f",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "gongweiList" : [
+        {
+            "name" : "\u5443\u5443",
+            "group" : "",
+            "twoD"  : [
+                {
+                    "node" : {
+                        "JIAGONG_73c1858337fe11cb" : {
+                            "guid" : "73c1858337fe11cb",
+                            "name" : "\u52A0\u5DE5\u5DE5\u4F4D8",
+                            "type" : 21,
+                            "sibling" : 0,
+                            "x"       : -151.5508,
+                            "y"       : 30.61591,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "fc7fd2115e71b1cb",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "f1ac64300c01b1cb",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "982ba6c25dbdb1cb",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 4,
+                                    "guid" : {
+                                        "self" : "1a27712d4a3db1cb",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 5,
+                                    "guid" : {
+                                        "self" : "b0f87751743db1cb",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 1,
+                                    "id" : 6,
+                                    "guid" : {
+                                        "self" : "a5361fd31bd91dcb",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "e265e6588255b1cb",
+                                        "other" : "cb746a961426e34f",
+                                        "sibling" : 4
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 2,
+                                    "guid" : {
+                                        "self" : "c208be351c5558c6",
+                                        "other" : "23c4bfb36572834f",
+                                        "sibling" : 5
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 3,
+                                    "guid" : {
+                                        "self" : "aea60bd1be2bca86",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 4,
+                                    "guid" : {
+                                        "self" : "aedf5464775d8a86",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 5,
+                                    "guid" : {
+                                        "self" : "a92f6fde27524286",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                                {
+                                    "BOM" : ""
+                                },
+                                {
+                                    "\u52A0\u5DE5\u6570\u636E" : ""
+                                },
+                                {
+                                    "\u51C6\u5907\u4E0A\u6599\u72B6\u6001" : ""
+                                },
+                                {
+                                    "\u4E0A\u6599\u72B6\u6001" : ""
+                                },
+                                {
+                                    "\u52A0\u5DE5\u72B6\u6001" : ""
+                                },
+                                {
+                                    "\u4E0B\u6599\u72B6\u6001" : ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "AM_353152547aaf7d1e" : {
+                            "guid" : "353152547aaf7d1e",
+                            "name" : "AM9",
+                            "type" : 22,
+                            "sibling" : 1,
+                            "x"       : 282.7971,
+                            "y"       : 83.65936,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "cb746a961426e34f",
+                                        "other" : "e265e6588255b1cb",
+                                        "sibling" : 4
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "45acf1952c3034f",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                                {
+                                    "\u7ED1\u5B9A" : "\u5F53\u524D\u9009\u62E9\u7684\u662F\uFF1AAM001"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "AM_6de05e7de566bde8" : {
+                            "guid" : "6de05e7de566bde8",
+                            "name" : "AM10",
+                            "type" : 22,
+                            "sibling" : 2,
+                            "x"       : 267.7488,
+                            "y"       : -110.4472,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "23c4bfb36572834f",
+                                        "other" : "c208be351c5558c6",
+                                        "sibling" : 5
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "70dfeec61b00e34f",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                                {
+                                    "\u7ED1\u5B9A" : "\u5F53\u524D\u9009\u62E9\u7684\u662F\uFF1AAM001"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node" : {
+                        "AM_b82840ef7ee45fc0" : {
+                            "guid" : "b82840ef7ee45fc0",
+                            "name" : "AM45",
+                            "type" : 22,
+                            "sibling" : 5,
+                            "x"       : 660.4666,
+                            "y"       : 192.8823,
+                            "addr"    : "",
+                            "desc"    : "",
+                            "refresh" : "",
+                            "bindAddr" : "\u53D8\u91CF\u540D\u79F0",
+                            "knobpair" : [
+                                {
+                                    "io" : 1,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "d7b195392626cc38",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                },
+                                {
+                                    "io" : 2,
+                                    "id" : 1,
+                                    "guid" : {
+                                        "self" : "932e623c3273dc38",
+                                        "other" : "",
+                                        "sibling" : 0
+                                    }
+                                }
+                            ],
+                            "addition" : [
+                                {
+                                    "\u7ED1\u5B9A" : "\u5F53\u524D\u9009\u62E9\u7684\u662F\uFF1AAM001"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

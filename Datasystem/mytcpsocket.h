@@ -5,26 +5,44 @@
 #include <QDebug>
 #include <chrono>
 #include <QTimer>
-#include "Globals/globals.h"
+#include <QMutex>
+/*
+ * SOCKET通讯类，这里用线程会导致消息发送不出去，暂时未知原因
+ */
 
-class MyTcpSocket : public QTcpSocket
+class MyTcpSocket : public QObject
 {
     Q_OBJECT
 public:
     explicit MyTcpSocket(QObject *parent = nullptr);
     ~MyTcpSocket();
-signals:
-    void Timeout();
+
+    QTcpSocket *m_socket;
+    MyTcpSocket *m_this_point;
 public slots:
     void RecvMsg();
     void SendMsg(QByteArray byteArray);
-    void ResetTimeout();
-    void OnTimeout();
     void Init();
-    virtual bool AnalyzeRcvData(QByteArray str){};
-    virtual void HandleRcvData(QList<QByteArray> str){};
+    bool AnalyzeRcvData();
+    void HandleRcvData(QByteArray str);
+    void HandleVarRegisterData(QByteArray msg);
+    void HandleSysRegisterData(QByteArray msg);
+    void ChangeVarRegisterData(QByteArray msg);
+    void HandleVarAskReadData(QByteArray msg);
+    void HandleVarAskWriteData(QByteArray msg);
+    void HandleFirmwareData(QByteArray msg);
+    void Test(){qDebug()<<"测试";}
+
+    QByteArray DataPack(QByteArray data);
+
+    uint16_t GetSysID(){return m_sysid;}
 private:
-    QTimer *m_timer;
+    QByteArray m_read_buf;
+    QList<QByteArray> m_send_list;
+    uint16_t m_sysid;               //每个子系统对应一个TCP实例，分配一个子系统ID
+signals:
+    void RegisterMsg(QString);
+    void RemoveThis();
 };
 
 #endif // MYTCPSOCKET_H

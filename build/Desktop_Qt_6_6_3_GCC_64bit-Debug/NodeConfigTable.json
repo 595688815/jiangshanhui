@@ -1,0 +1,196 @@
+{
+  "setting": {
+    "resolution": 11
+  },
+  "mozuList": [
+    {
+      "name": "AM001",
+      "group": null,
+      "twoD": [
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "7a14781327980efe",
+              "name": "Branch1",
+              "type": 7,
+              "sibling": 0,
+              "x": -369.713867,
+              "y": 170.892273,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindAddr": "",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "guid": {
+                    "self": "c24ec0f55c861392",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "guid": {
+                    "self": "d8129fff6b21bf52",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "guid": {
+                    "self": "1fb8951c96d4ff52",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 2,
+                  "guid": {
+                    "self": "401208fe77d0b2d2",
+                    "other": "5df868e4c5114f52",
+                    "sibling": 3
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "6398972feaf0ff52",
+              "name": "Act1",
+              "type": 6,
+              "sibling": 1,
+              "x": 19.7856445,
+              "y": 48.5869141,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindAddr": "",
+              "knobpair": [
+                {
+                  "io": 1,
+                  "id": 1,
+                  "guid": {
+                    "self": "8996dee9bd86b952",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 2,
+                  "guid": {
+                    "self": "ea3f46e6c96b7f52",
+                    "other": "",
+                    "sibling": 0
+                  }
+                },
+                {
+                  "io": 1,
+                  "id": 3,
+                  "guid": {
+                    "self": "5df868e4c5114f52",
+                    "other": "",
+                    "sibling": 3
+                  }
+                },
+                {
+                  "io": 2,
+                  "id": 1,
+                  "guid": {
+                    "self": "3c05ce3b23356b52",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "6398972feaf01234",
+              "name": "VCC",
+              "type": 11,
+              "sibling": 1,
+              "x": 19.7856445,
+              "y": 48.5869141,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindAddr": "",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "guid": {
+                    "self": "3c05ce3b23356b52",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        },
+        {
+          "node": {
+            "nodeinfo": {
+              "guid": "6398972feaf01234",
+              "name": "RESET",
+              "type": 12,
+              "sibling": 1,
+              "x": 19.7856445,
+              "y": 48.5869141,
+              "addr": "",
+              "desc": "",
+              "refresh": "",
+              "bindAddr": "",
+              "knobpair": [
+                {
+                  "io": 2,
+                  "id": 1,
+                  "guid": {
+                    "self": "3c05ce3b23356789",
+                    "other": "",
+                    "sibling": 0
+                  }
+                }
+              ],
+              "addition": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "aaa",
+      "group": "",
+      "twoD": []
+    },
+    {
+      "name": "test1",
+      "group": "",
+      "twoD": []
+    }
+  ],
+  "gongweiList": [
+    {
+      "name": "呃呃",
+      "group": "",
+      "twoD": []
+    }
+  ]
+}
